@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Topic>
+	<Topic name ="t1">
+		<Attribute name = "Id" type="Int" length ="4"/>
+		<Attribute name = "PosX1" type="Double" length ="8" />
+		<Attribute name = "PosY" type="Double" length ="4" />
+		<Attribute name = "PosZ" type="Double" length ="4" />
+		<Attribute name = "Name" type="Char" length ="1" />
+	</Topic>
+</Topic>

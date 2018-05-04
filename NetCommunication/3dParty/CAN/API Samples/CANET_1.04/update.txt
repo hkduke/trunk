@@ -1,0 +1,4 @@
+V1.04
+	修改了错误的labview例子
+V1.03
+	更新C#例子，添加CANET通用VC例子及labview例子

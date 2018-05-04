@@ -1,0 +1,7657 @@
+# Log file created/rotated Tuesday, 1 May 18 14:15:15 GMT
+[Information 2018-05-01 14:15:15 537 14732 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:16:03 803 9760 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:16:03 855 9760 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:16:03 887 9760 0]
+:0
+包标志：0
+[Information 2018-05-01 14:16:03 920 9760 0]
+:0
+优先级：0
+[Information 2018-05-01 14:16:03 953 9760 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:16:03 987 9760 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:16:04 020 9760 0]
+:0
+产生时刻：1525184163
+[Information 2018-05-01 14:16:04 045 9760 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:16:04 070 9760 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:16:04 095 9760 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:16:04 120 9760 0]
+:0
+保留字：0
+[Information 2018-05-01 14:16:04 145 9760 0]
+:0
+网络类型：
+[Information 2018-05-01 14:16:04 170 9760 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:16:04 197 9760 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:16:25 629 15128 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:16:25 709 15128 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:16:25 755 15128 0]
+:0
+包标志：0
+[Information 2018-05-01 14:16:25 780 15128 0]
+:0
+优先级：0
+[Information 2018-05-01 14:16:25 806 15128 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:16:25 830 15128 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:16:25 856 15128 0]
+:0
+产生时刻：1525184185
+[Information 2018-05-01 14:16:25 880 15128 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:16:25 906 15128 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:16:25 931 15128 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:16:25 956 15128 0]
+:0
+保留字：0
+[Information 2018-05-01 14:16:25 981 15128 0]
+:0
+网络类型：
+[Information 2018-05-01 14:16:26 006 15128 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:16:26 033 15128 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:16:31 049 15128 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 14:16:31 071 15128 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:16:31 098 15128 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 14:16:31 122 15128 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:16:31 122 15128 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:16:31 172 15128 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:16:31 198 15128 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:16:33 676 15128 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:16:33 698 15128 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:16:33 721 15128 1]
+:0
+包标志：0
+[Information 2018-05-01 14:16:33 748 15128 1]
+:0
+优先级：0
+[Information 2018-05-01 14:16:33 772 15128 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:16:33 798 15128 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:16:33 822 15128 1]
+:0
+产生时刻：1525184190
+[Information 2018-05-01 14:16:33 848 15128 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:16:33 871 15128 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:16:33 898 15128 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:16:33 921 15128 1]
+:0
+保留字：0
+[Information 2018-05-01 14:16:33 948 15128 1]
+:0
+网络类型：
+[Information 2018-05-01 14:16:33 971 15128 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 14:16:33 998 15128 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:16:34 022 15128 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:16:34 048 15128 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 14:16:34 071 15128 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:16:34 099 15128 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:16:34 122 15128 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:16:34 149 15128 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:16:34 184 15128 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:16:34 211 15128 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:16:34 212 15128 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:16:34 243 15128 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:16:34 289 15128 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:16:34 316 15128 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:16:34 339 15128 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:16:42 295 15128 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:16:42 348 15128 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:16:42 374 15128 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:16:42 398 15128 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:16:42 424 15128 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:16:42 448 15128 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:16:42 474 15128 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:16:42 497 15128 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:16:42 524 15128 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:16:42 547 15128 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:17:09 002 14956 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:17:09 061 14956 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:17:09 094 14956 0]
+:0
+包标志：0
+[Information 2018-05-01 14:17:09 119 14956 0]
+:0
+优先级：0
+[Information 2018-05-01 14:17:09 144 14956 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:17:09 169 14956 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:17:09 194 14956 0]
+:0
+产生时刻：1525184229
+[Information 2018-05-01 14:17:09 219 14956 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:17:09 275 14956 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:17:09 317 14956 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:17:09 344 14956 0]
+:0
+保留字：0
+[Information 2018-05-01 14:17:09 367 14956 0]
+:0
+网络类型：
+[Information 2018-05-01 14:17:09 394 14956 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:17:09 419 14956 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:17:09 785 14956 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:17:09 843 14956 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:17:09 870 14956 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:17:09 893 14956 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:17:09 920 14956 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:17:09 944 14956 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:17:09 944 14956 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:17:09 972 14956 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:17:10 019 14956 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:17:10 043 14956 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:17:10 069 14956 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:17:10 093 14956 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:17:10 119 14956 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:17:10 143 14956 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:17:33 495 14956 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:17:33 547 14956 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:17:33 571 14956 1]
+:0
+包标志：0
+[Information 2018-05-01 14:17:33 597 14956 1]
+:0
+优先级：0
+[Information 2018-05-01 14:17:33 621 14956 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:17:33 647 14956 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:17:33 671 14956 1]
+:0
+产生时刻：1525184250
+[Information 2018-05-01 14:17:33 697 14956 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:17:33 721 14956 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:17:33 739 14956 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:17:33 762 14956 1]
+:0
+保留字：0
+[Information 2018-05-01 14:17:33 781 14956 1]
+:0
+网络类型：
+[Information 2018-05-01 14:17:33 804 14956 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 14:17:33 822 14956 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 14:17:33 845 14956 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:17:33 890 14956 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:17:33 912 14956 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:17:33 931 14956 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:17:33 954 14956 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:17:33 972 14956 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:17:33 996 14956 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:17:38 618 14956 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:17:38 664 14956 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:17:38 716 14956 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:17:38 737 14956 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:17:38 762 14956 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:17:38 781 14956 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:17:38 804 14956 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:17:38 831 14956 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:17:38 854 14956 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:17:38 872 14956 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:18:21 617 8380 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:18:21 660 8380 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:18:21 684 8380 0]
+:0
+包标志：0
+[Information 2018-05-01 14:18:21 702 8380 0]
+:0
+优先级：0
+[Information 2018-05-01 14:18:21 726 8380 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:18:21 744 8380 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:18:21 776 8380 0]
+:0
+产生时刻：1525184301
+[Information 2018-05-01 14:18:21 794 8380 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:18:21 817 8380 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:18:21 835 8380 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:18:21 859 8380 0]
+:0
+保留字：0
+[Information 2018-05-01 14:18:21 877 8380 0]
+:0
+网络类型：
+[Information 2018-05-01 14:18:21 901 8380 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:18:21 922 8380 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:18:22 660 8380 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:18:22 686 8380 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:18:22 710 8380 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:18:22 728 8380 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:18:22 751 8380 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:18:22 771 8380 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:18:22 771 8380 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:18:22 796 8380 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:18:22 835 8380 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:18:22 852 8380 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:18:22 876 8380 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:18:22 895 8380 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:18:22 918 8380 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:18:22 936 8380 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:19:40 259 16256 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:19:40 366 16256 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:19:40 394 16256 0]
+:0
+包标志：0
+[Information 2018-05-01 14:19:40 424 16256 0]
+:0
+优先级：0
+[Information 2018-05-01 14:19:40 444 16256 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:19:40 470 16256 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:19:40 494 16256 0]
+:0
+产生时刻：1525184380
+[Information 2018-05-01 14:19:40 520 16256 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:19:40 544 16256 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:19:40 570 16256 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:19:40 595 16256 0]
+:0
+保留字：0
+[Information 2018-05-01 14:19:40 620 16256 0]
+:0
+网络类型：
+[Information 2018-05-01 14:19:40 645 16256 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:19:40 672 16256 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:19:42 567 16256 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:19:42 645 16256 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:19:42 670 16256 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:19:42 695 16256 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:19:42 720 16256 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:19:42 747 16256 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:19:42 747 16256 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:19:42 773 16256 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:19:42 820 16256 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:19:42 845 16256 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:19:42 870 16256 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:19:42 895 16256 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:19:42 920 16256 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:20:22 561 10660 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:20:22 620 10660 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:20:22 640 10660 0]
+:0
+包标志：0
+[Information 2018-05-01 14:20:22 667 10660 0]
+:0
+优先级：0
+[Information 2018-05-01 14:20:22 690 10660 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:20:22 717 10660 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:20:22 740 10660 0]
+:0
+产生时刻：1525184422
+[Information 2018-05-01 14:20:22 767 10660 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:20:22 790 10660 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:20:22 817 10660 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:20:22 840 10660 0]
+:0
+保留字：0
+[Information 2018-05-01 14:20:22 867 10660 0]
+:0
+网络类型：
+[Information 2018-05-01 14:20:22 890 10660 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:20:22 919 10660 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:20:27 933 10660 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 14:20:27 968 10660 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:20:27 992 10660 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 14:20:28 017 10660 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:20:28 018 10660 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:20:28 068 10660 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:20:28 092 10660 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:20:28 746 10660 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:20:28 800 10660 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:20:28 826 10660 1]
+:0
+包标志：0
+[Information 2018-05-01 14:20:28 850 10660 1]
+:0
+优先级：0
+[Information 2018-05-01 14:20:28 875 10660 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:20:28 900 10660 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:20:28 925 10660 1]
+:0
+产生时刻：1525184425
+[Information 2018-05-01 14:20:28 950 10660 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:20:28 975 10660 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:20:29 000 10660 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:20:29 044 10660 1]
+:0
+保留字：0
+[Information 2018-05-01 14:20:29 067 10660 1]
+:0
+网络类型：
+[Information 2018-05-01 14:20:29 100 10660 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 14:20:29 133 10660 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:20:29 167 10660 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:20:29 200 10660 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 14:20:29 234 10660 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:20:29 309 10660 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:20:29 343 10660 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:20:29 376 10660 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:20:29 469 10660 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:20:29 492 10660 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:20:29 493 10660 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:20:29 545 10660 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:20:29 584 10660 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:20:29 616 10660 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:20:29 651 10660 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:20:33 073 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:20:33 125 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:20:37 357 10660 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:20:37 408 10660 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:20:37 435 10660 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:20:37 466 10660 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:20:37 493 10660 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:20:37 525 10660 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:20:37 552 10660 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:20:37 583 10660 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:20:37 610 10660 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:20:37 642 10660 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:20:45 234 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:20:45 286 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:22:44 780 10660 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:22:44 831 10660 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:22:44 858 10660 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:22:44 889 10660 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:22:44 916 10660 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:22:44 948 10660 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:22:44 974 10660 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:22:45 006 10660 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:22:45 033 10660 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:25:39 273 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:25:39 319 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:25:41 767 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:25:41 818 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:25:57 519 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:25:57 562 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:00 656 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:00 689 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:01 063 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:01 147 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:01 282 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:01 314 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:01 456 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:01 489 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:01 676 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:01 706 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 076 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 148 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 290 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 323 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 479 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 506 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 685 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 714 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:02 979 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 031 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 170 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 198 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 555 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 581 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 739 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 765 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 947 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:03 981 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:04 123 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:04 156 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:04 525 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:04 573 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:04 605 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:04 631 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:04 966 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 031 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 141 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 173 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 339 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 365 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 551 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 581 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 758 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 789 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 823 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:05 856 10660 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 14:26:10 141 10660 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:26:25 171 10660 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:26:25 215 10660 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:26:25 241 10660 1]
+:0
+包标志：0
+[Information 2018-05-01 14:26:25 273 10660 1]
+:0
+优先级：0
+[Information 2018-05-01 14:26:25 299 10660 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:26:25 373 10660 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:26:25 425 10660 1]
+:0
+产生时刻：1525184782
+[Information 2018-05-01 14:26:25 457 10660 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:26:25 484 10660 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:26:25 515 10660 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:26:25 542 10660 1]
+:0
+保留字：0
+[Information 2018-05-01 14:26:25 574 10660 1]
+:0
+网络类型：
+[Information 2018-05-01 14:26:25 600 10660 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 14:26:25 632 10660 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:26:25 659 10660 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 14:26:25 690 10660 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:26:25 717 10660 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:26:25 749 10660 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:26:25 776 10660 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:26:25 806 10660 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:26:25 834 10660 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:26:25 866 10660 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:26:25 892 10660 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:26:25 924 10660 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:26:25 950 10660 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:26:25 987 10660 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:26:34 047 10660 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:26:34 075 10660 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:26:34 101 10660 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:26:34 133 10660 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:26:34 159 10660 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:26:34 191 10660 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:26:34 218 10660 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:26:34 250 10660 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:26:34 276 10660 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:27:08 426 14172 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:27:08 484 14172 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:27:08 506 14172 0]
+:0
+包标志：0
+[Information 2018-05-01 14:27:08 538 14172 0]
+:0
+优先级：0
+[Information 2018-05-01 14:27:08 572 14172 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:27:08 605 14172 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:27:08 639 14172 0]
+:0
+产生时刻：1525184828
+[Information 2018-05-01 14:27:08 667 14172 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:27:08 689 14172 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:27:08 722 14172 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:27:08 747 14172 0]
+:0
+保留字：0
+[Information 2018-05-01 14:27:08 780 14172 0]
+:0
+网络类型：
+[Information 2018-05-01 14:27:08 814 14172 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:27:08 850 14172 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:27:09 202 14172 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:27:09 246 14172 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:27:09 280 14172 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:27:09 313 14172 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:27:09 365 14172 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:27:09 365 14172 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:27:09 904 14172 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-01 14:27:09 930 14172 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:27:09 962 14172 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:27:09 989 14172 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:27:10 021 14172 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:27:10 047 14172 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:27:10 079 14172 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:27:10 106 14172 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-01 14:27:10 137 14172 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:27:10 163 14172 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:27:10 195 14172 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:27:10 222 14172 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:27:10 254 14172 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:27:12 672 14172 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:27:12 720 14172 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:27:12 747 14172 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:27:12 778 14172 1]
+:0
+新节点加入完成,id号为5
+
+[Information 2018-05-01 14:27:12 805 14172 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:27:12 837 14172 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:27:12 863 14172 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:27:12 896 14172 1]
+:0
+建立传输地址：192.168.43.132
+[Information 2018-05-01 14:28:17 347 14172 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:51:48 446 11588 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:51:48 506 11588 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:51:48 526 11588 0]
+:0
+包标志：0
+[Information 2018-05-01 14:51:48 566 11588 0]
+:0
+优先级：0
+[Information 2018-05-01 14:51:48 592 11588 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:51:48 616 11588 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:51:48 642 11588 0]
+:0
+产生时刻：1525186308
+[Information 2018-05-01 14:51:48 666 11588 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:51:48 698 11588 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:51:48 729 11588 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:51:48 744 11588 0]
+:0
+保留字：0
+[Information 2018-05-01 14:51:48 791 11588 0]
+:0
+网络类型：
+[Information 2018-05-01 14:51:48 807 11588 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:51:48 838 11588 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:51:53 041 11588 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:51:53 088 11588 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:51:53 119 11588 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:51:53 151 11588 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:51:53 182 11588 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:51:53 198 11588 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:51:53 198 11588 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:51:53 244 11588 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:51:53 323 11588 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:51:53 354 11588 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:51:53 385 11588 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:51:53 416 11588 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:51:53 448 11588 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:52:09 994 7836 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:52:10 029 7836 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:52:10 060 7836 0]
+:0
+包标志：0
+[Information 2018-05-01 14:52:10 087 7836 0]
+:0
+优先级：0
+[Information 2018-05-01 14:52:10 118 7836 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:52:10 145 7836 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:52:10 177 7836 0]
+:0
+产生时刻：1525186330
+[Information 2018-05-01 14:52:10 212 7836 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:52:10 243 7836 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:52:10 278 7836 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:52:10 311 7836 0]
+:0
+保留字：0
+[Information 2018-05-01 14:52:10 346 7836 0]
+:0
+网络类型：
+[Information 2018-05-01 14:52:10 379 7836 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:52:10 415 7836 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:52:15 444 7836 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 14:52:15 496 7836 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:52:15 529 7836 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 14:52:15 563 7836 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:52:15 563 7836 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:52:15 622 7836 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:52:15 654 7836 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:52:27 510 6136 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:52:27 575 6136 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:52:27 598 6136 0]
+:0
+包标志：0
+[Information 2018-05-01 14:52:27 629 6136 0]
+:0
+优先级：0
+[Information 2018-05-01 14:52:27 664 6136 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:52:27 704 6136 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:52:27 732 6136 0]
+:0
+产生时刻：1525186347
+[Information 2018-05-01 14:52:27 774 6136 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:52:27 798 6136 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:52:27 830 6136 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:52:27 864 6136 0]
+:0
+保留字：0
+[Information 2018-05-01 14:52:27 897 6136 0]
+:0
+网络类型：
+[Information 2018-05-01 14:52:27 931 6136 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:52:27 967 6136 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:52:32 994 6136 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 14:52:33 022 6136 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:52:33 057 6136 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 14:52:33 090 6136 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:52:33 090 6136 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:52:33 156 6136 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:52:33 190 6136 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:52:55 014 6136 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:52:55 061 6136 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:52:55 092 6136 1]
+:0
+包标志：0
+[Information 2018-05-01 14:52:55 139 6136 1]
+:0
+优先级：0
+[Information 2018-05-01 14:52:55 170 6136 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:52:55 201 6136 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:52:55 233 6136 1]
+:0
+产生时刻：1525186372
+[Information 2018-05-01 14:52:55 264 6136 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:52:55 295 6136 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:52:55 342 6136 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:52:55 373 6136 1]
+:0
+保留字：0
+[Information 2018-05-01 14:52:55 404 6136 1]
+:0
+网络类型：
+[Information 2018-05-01 14:52:55 436 6136 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 14:52:55 467 6136 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:52:55 498 6136 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:52:55 529 6136 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 14:52:55 561 6136 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:52:55 608 6136 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:52:55 639 6136 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:52:55 670 6136 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:52:55 686 6136 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:52:55 733 6136 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:52:55 733 6136 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:52:55 764 6136 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:52:55 811 6136 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:52:55 858 6136 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:52:55 873 6136 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:53:23 014 6136 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:53:23 045 6136 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:53:23 092 6136 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:53:23 123 6136 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:53:23 139 6136 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:53:23 170 6136 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:53:23 202 6136 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:53:23 233 6136 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:53:23 264 6136 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:53:23 295 6136 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:53:49 097 6136 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:54:17 035 6136 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:54:17 066 6136 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:54:17 082 6136 1]
+:0
+包标志：0
+[Information 2018-05-01 14:54:17 113 6136 1]
+:0
+优先级：0
+[Information 2018-05-01 14:54:17 145 6136 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:54:17 176 6136 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:54:17 207 6136 1]
+:0
+产生时刻：1525186454
+[Information 2018-05-01 14:54:17 238 6136 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:54:17 254 6136 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:54:17 285 6136 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:54:17 316 6136 1]
+:0
+保留字：0
+[Information 2018-05-01 14:54:17 348 6136 1]
+:0
+网络类型：
+[Information 2018-05-01 14:54:17 379 6136 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 14:54:17 410 6136 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:54:17 441 6136 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 14:54:17 473 6136 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:54:17 488 6136 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:54:17 520 6136 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:54:17 551 6136 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:54:17 582 6136 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:54:17 613 6136 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:54:17 645 6136 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:54:17 676 6136 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:54:17 707 6136 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:54:17 723 6136 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:54:17 754 6136 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:54:28 836 8852 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:54:28 908 8852 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:54:28 927 8852 0]
+:0
+包标志：0
+[Information 2018-05-01 14:54:28 953 8852 0]
+:0
+优先级：0
+[Information 2018-05-01 14:54:28 993 8852 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:54:29 014 8852 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:54:29 035 8852 0]
+:0
+产生时刻：1525186468
+[Information 2018-05-01 14:54:29 073 8852 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:54:29 103 8852 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:54:29 136 8852 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:54:29 176 8852 0]
+:0
+保留字：0
+[Information 2018-05-01 14:54:29 211 8852 0]
+:0
+网络类型：
+[Information 2018-05-01 14:54:29 243 8852 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:54:29 280 8852 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:54:29 554 8852 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:54:29 586 8852 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:54:29 618 8852 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:54:29 653 8852 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:54:29 685 8852 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:54:29 721 8852 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:54:29 721 8852 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:54:29 754 8852 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:54:29 818 8852 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:54:29 853 8852 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:54:29 884 8852 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:54:29 919 8852 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:54:29 951 8852 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:54:29 987 8852 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:55:05 511 8852 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:55:05 558 8852 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:55:05 589 8852 1]
+:0
+包标志：0
+[Information 2018-05-01 14:55:05 621 8852 1]
+:0
+优先级：0
+[Information 2018-05-01 14:55:05 652 8852 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:55:05 683 8852 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:55:05 730 8852 1]
+:0
+产生时刻：1525186502
+[Information 2018-05-01 14:55:05 761 8852 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:55:05 793 8852 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:55:05 824 8852 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:55:08 688 15508 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:55:08 742 15508 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:55:08 765 15508 0]
+:0
+包标志：0
+[Information 2018-05-01 14:55:08 800 15508 0]
+:0
+优先级：0
+[Information 2018-05-01 14:55:08 831 15508 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:55:08 866 15508 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:55:08 899 15508 0]
+:0
+产生时刻：1525186508
+[Information 2018-05-01 14:55:08 933 15508 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:55:08 966 15508 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:55:09 000 15508 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:55:09 032 15508 0]
+:0
+保留字：0
+[Information 2018-05-01 14:55:09 066 15508 0]
+:0
+网络类型：
+[Information 2018-05-01 14:55:09 098 15508 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:55:09 136 15508 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:55:10 596 15508 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:55:10 674 15508 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:55:10 705 15508 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:55:10 737 15508 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:55:10 768 15508 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:55:10 815 15508 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:55:10 815 15508 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:55:10 846 15508 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:55:10 924 15508 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:55:10 955 15508 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:55:10 987 15508 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:55:11 018 15508 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:55:11 065 15508 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:56:08 163 11860 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:56:08 223 11860 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:56:08 255 11860 0]
+:0
+包标志：0
+[Information 2018-05-01 14:56:08 290 11860 0]
+:0
+优先级：0
+[Information 2018-05-01 14:56:08 321 11860 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:56:08 356 11860 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:56:08 384 11860 0]
+:0
+产生时刻：1525186568
+[Information 2018-05-01 14:56:08 416 11860 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:56:08 447 11860 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:56:08 478 11860 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:56:08 509 11860 0]
+:0
+保留字：0
+[Information 2018-05-01 14:56:08 572 11860 0]
+:0
+网络类型：
+[Information 2018-05-01 14:56:08 619 11860 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:56:08 666 11860 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:56:11 088 11860 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:56:11 135 11860 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:56:11 181 11860 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:56:11 213 11860 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:56:11 244 11860 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:56:11 291 11860 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:56:11 291 11860 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:56:11 338 11860 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:56:11 400 11860 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:56:11 431 11860 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:56:11 478 11860 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:56:11 510 11860 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:56:11 541 11860 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:56:35 082 11860 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:56:35 129 11860 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:56:35 176 11860 1]
+:0
+包标志：0
+[Information 2018-05-01 14:56:35 207 11860 1]
+:0
+优先级：0
+[Information 2018-05-01 14:56:35 239 11860 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:56:35 270 11860 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:56:35 301 11860 1]
+:0
+产生时刻：1525186591
+[Information 2018-05-01 14:56:35 332 11860 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:56:35 364 11860 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:56:35 395 11860 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:56:35 442 11860 1]
+:0
+保留字：0
+[Information 2018-05-01 14:56:35 473 11860 1]
+:0
+网络类型：
+[Information 2018-05-01 14:56:35 504 11860 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 14:56:35 535 11860 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 14:56:35 567 11860 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:56:35 598 11860 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:56:35 629 11860 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:56:35 660 11860 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:56:35 707 11860 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:56:35 739 11860 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:56:35 770 11860 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 14:56:47 378 10976 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:56:47 481 10976 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:56:47 502 10976 0]
+:0
+包标志：0
+[Information 2018-05-01 14:56:47 534 10976 0]
+:0
+优先级：0
+[Information 2018-05-01 14:56:47 569 10976 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:56:47 601 10976 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:56:47 635 10976 0]
+:0
+产生时刻：1525186607
+[Information 2018-05-01 14:56:47 677 10976 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:56:47 703 10976 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:56:47 736 10976 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:56:47 769 10976 0]
+:0
+保留字：0
+[Information 2018-05-01 14:56:47 802 10976 0]
+:0
+网络类型：
+[Information 2018-05-01 14:56:47 828 10976 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:56:47 863 10976 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:56:50 526 10976 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 14:56:50 569 10976 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 14:56:50 603 10976 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:56:50 636 10976 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:56:50 661 10976 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:56:50 695 10976 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:56:50 695 10976 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:56:50 731 10976 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:56:50 786 10976 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:56:50 819 10976 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:56:50 844 10976 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:56:50 878 10976 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:56:50 912 10976 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:59:44 076 12104 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 14:59:44 129 12104 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:59:44 145 12104 0]
+:0
+包标志：0
+[Information 2018-05-01 14:59:44 176 12104 0]
+:0
+优先级：0
+[Information 2018-05-01 14:59:44 207 12104 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:59:44 239 12104 0]
+:0
+数据包大小：21
+[Information 2018-05-01 14:59:44 270 12104 0]
+:0
+产生时刻：1525186784
+[Information 2018-05-01 14:59:44 301 12104 0]
+:0
+源设备标识：1
+[Information 2018-05-01 14:59:44 317 12104 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:59:44 364 12104 0]
+:0
+确认标志：0
+[Information 2018-05-01 14:59:44 379 12104 0]
+:0
+保留字：0
+[Information 2018-05-01 14:59:44 410 12104 0]
+:0
+网络类型：
+[Information 2018-05-01 14:59:44 442 12104 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 14:59:44 473 12104 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 14:59:49 504 12104 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 14:59:49 520 12104 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 14:59:49 551 12104 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 14:59:49 582 12104 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:59:49 582 12104 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:59:49 645 12104 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:59:49 660 12104 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 14:59:50 285 12104 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 14:59:50 332 12104 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 14:59:50 364 12104 1]
+:0
+包标志：0
+[Information 2018-05-01 14:59:50 395 12104 1]
+:0
+优先级：0
+[Information 2018-05-01 14:59:50 426 12104 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 14:59:50 442 12104 1]
+:0
+数据包大小：21
+[Information 2018-05-01 14:59:50 473 12104 1]
+:0
+产生时刻：1525186787
+[Information 2018-05-01 14:59:50 504 12104 1]
+:0
+源设备标识：2
+[Information 2018-05-01 14:59:50 535 12104 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 14:59:50 551 12104 1]
+:0
+确认标志：0
+[Information 2018-05-01 14:59:50 582 12104 1]
+:0
+保留字：0
+[Information 2018-05-01 14:59:50 614 12104 1]
+:0
+网络类型：
+[Information 2018-05-01 14:59:50 645 12104 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 14:59:50 676 12104 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 14:59:50 707 12104 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 14:59:50 739 12104 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 14:59:50 770 12104 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 14:59:50 801 12104 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 14:59:50 832 12104 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 14:59:50 864 12104 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 14:59:50 895 12104 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 14:59:50 942 12104 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 14:59:50 942 12104 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 14:59:50 989 12104 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 14:59:51 020 12104 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 14:59:51 051 12104 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 14:59:51 082 12104 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:00:02 067 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:08 171 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:08 280 12104 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:00:08 296 12104 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:00:08 327 12104 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 15:00:08 374 12104 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 15:00:08 405 12104 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 15:00:08 421 12104 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 15:00:08 452 12104 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:00:08 499 12104 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:00:08 530 12104 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:00:08 562 12104 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:00:09 421 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:12 405 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:15 390 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:18 421 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:21 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:24 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:27 460 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:30 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:33 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:36 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:39 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:42 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:45 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:48 416 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:51 416 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:54 400 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:00:57 416 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:00 400 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:03 416 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:06 410 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:09 410 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:12 410 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:15 426 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:18 410 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:21 426 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:24 426 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:27 426 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:30 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:33 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:36 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:39 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:42 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:45 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:48 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:51 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:54 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:01:57 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:00 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:03 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:06 407 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:09 407 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:12 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:15 407 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:18 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:21 407 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:24 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:27 407 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:30 407 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:33 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:36 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:39 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:42 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:45 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:48 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:51 407 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:54 407 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:02:57 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:00 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:03 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:06 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:09 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:12 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:15 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:18 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:21 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:24 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:27 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:30 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:33 423 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:36 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:39 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:42 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:45 439 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:48 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:51 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:54 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:03:57 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:00 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:03 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:06 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:09 439 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:12 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:15 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:18 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:21 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:24 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:28 846 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:30 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:33 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:39 018 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:39 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:42 408 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:45 424 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:48 416 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:51 416 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:54 394 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:04:57 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:00 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:03 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:06 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:09 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:12 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:15 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:18 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:21 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:24 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:27 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:30 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:33 429 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:36 429 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:39 429 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:42 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:45 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:48 429 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:51 413 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:54 429 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:05:57 432 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:00 426 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:03 411 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:06 426 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:09 426 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:12 411 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:15 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:18 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:21 473 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:24 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:27 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:30 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:33 411 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:36 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:39 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:42 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:45 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:48 411 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:51 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:54 411 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:06:57 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:00 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:03 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:06 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:09 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:12 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:15 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:18 411 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:21 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:24 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:27 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:30 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:33 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:36 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:39 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:42 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:45 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:48 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:51 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:54 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:07:57 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:00 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:03 427 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:06 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:09 412 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:12 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:15 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:18 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:21 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:24 443 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:27 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:32 850 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:33 428 12104 4]
+:0
+FileTranseHandle::HandleEnter接收到文件包
+[Information 2018-05-01 15:08:36 547 12104 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 15:08:42 054 12104 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 15:08:42 117 12104 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 15:08:42 148 12104 1]
+:0
+包标志：0
+[Information 2018-05-01 15:08:42 164 12104 1]
+:0
+优先级：0
+[Information 2018-05-01 15:08:42 195 12104 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 15:08:42 226 12104 1]
+:0
+数据包大小：21
+[Information 2018-05-01 15:08:42 257 12104 1]
+:0
+产生时刻：1525187319
+[Information 2018-05-01 15:08:42 289 12104 1]
+:0
+源设备标识：2
+[Information 2018-05-01 15:08:42 320 12104 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 15:08:42 351 12104 1]
+:0
+确认标志：0
+[Information 2018-05-01 15:08:42 382 12104 1]
+:0
+保留字：0
+[Information 2018-05-01 15:08:42 398 12104 1]
+:0
+网络类型：
+[Information 2018-05-01 15:08:42 429 12104 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 15:08:42 461 12104 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 15:08:42 492 12104 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 15:08:42 523 12104 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 15:08:42 554 12104 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 15:08:42 586 12104 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 15:08:42 617 12104 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:08:42 679 12104 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:08:42 742 12104 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:08:42 773 12104 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 15:08:42 804 12104 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:08:42 836 12104 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 15:08:42 867 12104 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:08:42 882 12104 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:08:46 479 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:08:46 494 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:08:50 926 12104 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:08:50 973 12104 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:08:51 004 12104 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 15:08:51 035 12104 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 15:08:51 066 12104 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 15:08:51 098 12104 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 15:08:51 129 12104 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:08:51 160 12104 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:08:51 191 12104 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:08:51 207 12104 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:09:19 014 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:19 030 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:21 014 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:21 061 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:23 374 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:23 389 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:23 452 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:23 467 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:26 952 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:26 983 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 061 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 077 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 389 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 452 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 499 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 524 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 618 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 633 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 727 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 743 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 837 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:27 852 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:28 097 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:28 112 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:28 409 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:28 425 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:28 593 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:28 608 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:29 027 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:29 060 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:29 802 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:29 818 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:29 912 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:29 943 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:30 021 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:30 050 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:30 573 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:30 620 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:31 554 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:31 570 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:31 773 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:31 788 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:32 167 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:32 214 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:32 973 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:32 989 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:33 080 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:33 096 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:34 830 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:34 861 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:35 374 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:35 390 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:37 407 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:37 454 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:37 571 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:37 587 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:37 900 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:37 946 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:38 009 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:38 035 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:38 890 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:38 953 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:38 999 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:39 031 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:39 106 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:39 122 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:39 760 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:39 792 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:40 088 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:40 103 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:40 533 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:40 554 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:41 075 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:41 122 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:41 450 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:41 497 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:41 526 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:41 551 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:41 613 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:41 629 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 266 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 281 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 391 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 406 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 484 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 516 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 602 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 617 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 821 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:42 836 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:43 790 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:43 837 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:43 868 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:43 899 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:44 025 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:44 049 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:44 221 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:44 253 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:44 346 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:44 378 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:44 456 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:44 487 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:45 114 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:45 161 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:45 489 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:45 520 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:46 534 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:46 574 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:47 164 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:09:47 195 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:10:36 693 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:10:36 741 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:10:38 734 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:10:38 781 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:11:26 718 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:11:26 734 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:11:39 718 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:11:39 764 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:39 565 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:39 618 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:42 122 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:42 159 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:48 794 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:48 841 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:50 695 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:50 742 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:53 108 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:53 130 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:56 352 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:12:56 383 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:13:02 248 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:13:02 279 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:14:02 769 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:14:02 801 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:14:37 615 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:14:37 650 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:14:45 007 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:14:45 038 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:14:54 482 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:14:54 498 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:15:14 661 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:15:14 692 12104 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:19 766 11736 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 15:20:19 831 11736 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 15:20:19 856 11736 0]
+:0
+包标志：0
+[Information 2018-05-01 15:20:19 882 11736 0]
+:0
+优先级：0
+[Information 2018-05-01 15:20:19 914 11736 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 15:20:19 941 11736 0]
+:0
+数据包大小：21
+[Information 2018-05-01 15:20:19 972 11736 0]
+:0
+产生时刻：1525188019
+[Information 2018-05-01 15:20:19 993 11736 0]
+:0
+源设备标识：1
+[Information 2018-05-01 15:20:20 025 11736 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 15:20:20 056 11736 0]
+:0
+确认标志：0
+[Information 2018-05-01 15:20:20 087 11736 0]
+:0
+保留字：0
+[Information 2018-05-01 15:20:20 103 11736 0]
+:0
+网络类型：
+[Information 2018-05-01 15:20:20 134 11736 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 15:20:20 165 11736 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 15:20:20 941 11736 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：2
+
+[Information 2018-05-01 15:20:20 972 11736 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为2
+
+[Information 2018-05-01 15:20:21 003 11736 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 15:20:21 019 11736 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:20:21 066 11736 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:20:21 066 11736 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 15:20:21 628 11736 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-01 15:20:21 644 11736 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:20:21 706 11736 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:20:21 753 11736 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:20:21 785 11736 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:20:21 816 11736 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:20:21 847 11736 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 15:20:21 878 11736 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-01 15:20:21 910 11736 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:20:21 941 11736 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:20:21 972 11736 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:20:21 988 11736 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:20:22 019 11736 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:20:24 050 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:24 097 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:27 088 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:27 181 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:31 760 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:31 791 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:31 978 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:31 994 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:32 307 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:32 353 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:32 400 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:32 416 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:32 744 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:32 775 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 072 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 088 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 182 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 206 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 613 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 628 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 675 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 699 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 731 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:33 746 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 059 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 074 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 168 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 199 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 265 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 281 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 390 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 406 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 500 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 531 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 656 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 687 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 718 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:34 760 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 142 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 189 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 368 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 400 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 478 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 509 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 587 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 618 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 697 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 733 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 811 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 843 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 921 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:35 952 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 140 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 171 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 246 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 270 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 348 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 379 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 457 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 489 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 567 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 598 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 865 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 896 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 928 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:36 959 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 115 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 146 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 217 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 238 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 332 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 363 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 582 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 613 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 660 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:37 691 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 100 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 178 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 211 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 242 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 258 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 289 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 320 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 351 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 430 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 445 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 539 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 555 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 648 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 664 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 764 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 779 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 873 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 889 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 983 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:38 998 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 092 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 108 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 201 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 227 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 422 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 438 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 516 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 531 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 641 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 672 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 744 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 763 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 856 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 888 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 966 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:39 997 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 075 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 106 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 301 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 332 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 394 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 426 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 519 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 551 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 722 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 759 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:40 994 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 072 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 103 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 134 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 166 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 197 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 281 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 312 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 390 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 421 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 499 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 531 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 593 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 624 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 825 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 856 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 934 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:41 965 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 153 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 184 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 258 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 293 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 380 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 412 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 537 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 568 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 830 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 846 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 924 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:42 940 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 143 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 174 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 250 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 285 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 577 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 608 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 686 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 717 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 787 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:43 821 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 008 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 040 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 118 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 133 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 212 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 243 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 335 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 350 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 444 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 475 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 538 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 569 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 768 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:44 786 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:45 004 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:45 036 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:47 538 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:47 569 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:50 546 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:50 593 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:51 533 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:20:51 580 11736 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:21:33 748 5344 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 15:21:33 808 5344 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 15:21:33 833 5344 0]
+:0
+包标志：0
+[Information 2018-05-01 15:21:33 865 5344 0]
+:0
+优先级：0
+[Information 2018-05-01 15:21:33 891 5344 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 15:21:33 923 5344 0]
+:0
+数据包大小：21
+[Information 2018-05-01 15:21:33 950 5344 0]
+:0
+产生时刻：1525188093
+[Information 2018-05-01 15:21:33 981 5344 0]
+:0
+源设备标识：1
+[Information 2018-05-01 15:21:34 008 5344 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 15:21:34 031 5344 0]
+:0
+确认标志：0
+[Information 2018-05-01 15:21:34 046 5344 0]
+:0
+保留字：0
+[Information 2018-05-01 15:21:34 078 5344 0]
+:0
+网络类型：
+[Information 2018-05-01 15:21:34 093 5344 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 15:21:34 125 5344 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 15:21:35 828 5344 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 15:21:35 875 5344 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 15:21:35 890 5344 1]
+:0
+包标志：0
+[Information 2018-05-01 15:21:35 922 5344 1]
+:0
+优先级：0
+[Information 2018-05-01 15:21:35 953 5344 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 15:21:35 984 5344 1]
+:0
+数据包大小：21
+[Information 2018-05-01 15:21:36 015 5344 1]
+:0
+产生时刻：1525188092
+[Information 2018-05-01 15:21:36 046 5344 1]
+:0
+源设备标识：2
+[Information 2018-05-01 15:21:36 078 5344 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 15:21:36 093 5344 1]
+:0
+确认标志：0
+[Information 2018-05-01 15:21:36 140 5344 1]
+:0
+保留字：0
+[Information 2018-05-01 15:21:36 156 5344 1]
+:0
+网络类型：
+[Information 2018-05-01 15:21:36 187 5344 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 15:21:36 218 5344 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 15:21:36 250 5344 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 15:21:36 281 5344 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-01 15:21:36 312 5344 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:21:36 328 5344 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:21:36 375 5344 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:21:36 375 5344 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 15:21:39 156 5344 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 15:21:39 203 5344 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 15:21:39 218 5344 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 15:21:39 265 5344 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 15:28:46 627 3748 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 15:28:47 076 3748 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 15:28:47 102 3748 0]
+:0
+包标志：0
+[Information 2018-05-01 15:28:47 133 3748 0]
+:0
+优先级：0
+[Information 2018-05-01 15:28:47 164 3748 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 15:28:47 196 3748 0]
+:0
+数据包大小：21
+[Information 2018-05-01 15:28:47 227 3748 0]
+:0
+产生时刻：1525188527
+[Information 2018-05-01 15:28:47 258 3748 0]
+:0
+源设备标识：1
+[Information 2018-05-01 15:28:47 289 3748 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 15:28:47 305 3748 0]
+:0
+确认标志：0
+[Information 2018-05-01 15:28:47 336 3748 0]
+:0
+保留字：0
+[Information 2018-05-01 15:28:47 367 3748 0]
+:0
+网络类型：
+[Information 2018-05-01 15:28:47 399 3748 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 15:28:47 430 3748 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 15:28:51 305 3748 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 15:28:51 352 3748 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 15:28:51 383 3748 1]
+:0
+包标志：0
+[Information 2018-05-01 15:28:51 414 3748 1]
+:0
+优先级：0
+[Information 2018-05-01 15:28:51 446 3748 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 15:28:51 461 3748 1]
+:0
+数据包大小：21
+[Information 2018-05-01 15:28:51 493 3748 1]
+:0
+产生时刻：1525188528
+[Information 2018-05-01 15:28:51 524 3748 1]
+:0
+源设备标识：2
+[Information 2018-05-01 15:28:51 586 3748 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 15:28:51 633 3748 1]
+:0
+确认标志：0
+[Information 2018-05-01 15:28:51 664 3748 1]
+:0
+保留字：0
+[Information 2018-05-01 15:28:51 680 3748 1]
+:0
+网络类型：
+[Information 2018-05-01 15:28:51 711 3748 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 15:28:51 743 3748 1]
+:0
+新节点加入完成,id号为2
+
+[Information 2018-05-01 15:28:51 774 3748 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 15:28:51 821 3748 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-01 15:28:51 899 3748 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:28:51 961 3748 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:28:52 008 3748 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:28:52 008 3748 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 15:28:52 477 3748 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 15:28:52 493 3748 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 15:28:52 524 3748 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 15:28:52 555 3748 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 15:28:53 118 3748 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:28:53 149 3748 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 15:28:53 164 3748 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:28:53 196 3748 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:29:04 934 3748 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:29:04 984 3748 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:29:05 010 3748 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 15:29:05 042 3748 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 15:29:05 069 3748 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:29:05 100 3748 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:29:05 152 3748 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 15:29:05 184 3748 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 15:29:05 210 3748 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:29:05 242 3748 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:31:14 119 3748 9]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-01 15:31:19 354 3748 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-01 15:31:19 385 3748 1]
+:0
+设备帧类型：0
+[Information 2018-05-01 15:31:19 416 3748 1]
+:0
+包标志：0
+[Information 2018-05-01 15:31:19 448 3748 1]
+:0
+优先级：0
+[Information 2018-05-01 15:31:19 479 3748 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 15:31:19 526 3748 1]
+:0
+数据包大小：21
+[Information 2018-05-01 15:31:19 557 3748 1]
+:0
+产生时刻：1525188676
+[Information 2018-05-01 15:31:19 588 3748 1]
+:0
+源设备标识：2
+[Information 2018-05-01 15:31:19 604 3748 1]
+:0
+目标设备信息：0
+[Information 2018-05-01 15:31:19 635 3748 1]
+:0
+确认标志：0
+[Information 2018-05-01 15:31:19 666 3748 1]
+:0
+保留字：0
+[Information 2018-05-01 15:31:19 698 3748 1]
+:0
+网络类型：
+[Information 2018-05-01 15:31:19 729 3748 1]
+:0
+网络地址：192.168.43.42
+[Information 2018-05-01 15:31:19 760 3748 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 15:31:19 791 3748 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-01 15:31:19 823 3748 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 15:31:19 838 3748 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:31:19 870 3748 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:31:19 901 3748 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 15:31:19 932 3748 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 15:31:19 963 3748 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:31:19 995 3748 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 15:31:20 026 3748 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:31:20 057 3748 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 15:31:20 073 3748 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:31:20 120 3748 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:33:09 433 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:33:09 480 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:33:11 042 3748 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 15:33:11 089 3748 1]
+:0
+建立传输地址：192.168.43.42
+[Information 2018-05-01 15:33:11 121 3748 1]
+:0
+连接已经建立：192.168.43.42
+[Information 2018-05-01 15:33:11 152 3748 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-01 15:33:11 183 3748 1]
+:0
+ 节点ID：2
+
+[Information 2018-05-01 15:33:11 199 3748 1]
+:0
+ IP地址：192.168.43.42
+
+[Information 2018-05-01 15:33:11 246 3748 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-01 15:33:11 261 3748 1]
+:0
+ IP地址：192.168.43.96
+
+[Information 2018-05-01 15:33:11 292 3748 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：2的主题信息
+[Information 2018-05-01 15:33:11 324 3748 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 15:33:28 527 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:33:28 574 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:33:45 699 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:33:45 746 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:33:54 605 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:33:54 683 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:34:15 824 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:34:15 887 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:06 356 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:06 403 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:07 340 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:07 387 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:08 353 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:08 400 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:09 346 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:09 362 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:10 348 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:10 364 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:14 245 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:14 292 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:15 328 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:15 375 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:16 337 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:16 384 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:18 497 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:18 575 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:20 025 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:20 077 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:22 363 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:22 410 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:23 385 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:23 432 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:24 698 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:24 714 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:25 510 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:25 557 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:28 685 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:28 732 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:31 807 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:31 854 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:34 659 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 15:35:34 675 3748 4]
+:0
+PackManager::Parse ParsePackID:11200
+
+[Information 2018-05-01 16:21:48 412 1744 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 16:21:48 506 1744 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 16:21:48 532 1744 0]
+:0
+包标志：0
+[Information 2018-05-01 16:21:48 576 1744 0]
+:0
+优先级：0
+[Information 2018-05-01 16:21:48 599 1744 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 16:21:48 625 1744 0]
+:0
+数据包大小：21
+[Information 2018-05-01 16:21:48 649 1744 0]
+:0
+产生时刻：1525191708
+[Information 2018-05-01 16:21:48 675 1744 0]
+:0
+源设备标识：1
+[Information 2018-05-01 16:21:48 699 1744 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 16:21:48 725 1744 0]
+:0
+确认标志：0
+[Information 2018-05-01 16:21:48 749 1744 0]
+:0
+保留字：0
+[Information 2018-05-01 16:21:48 775 1744 0]
+:0
+网络类型：
+[Information 2018-05-01 16:21:48 799 1744 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 16:21:48 814 1744 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 16:21:53 928 1744 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 16:21:53 959 1744 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 16:21:53 991 1744 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 16:21:54 022 1744 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 16:21:54 022 1744 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 16:21:54 069 1744 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 16:21:54 100 1744 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 16:22:03 255 1744 0]
+:0
+FilePack::GetFilePackages分包总耗时为0
+
+[Information 2018-05-01 16:22:30 977 8708 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 16:22:31 017 8708 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 16:22:31 037 8708 0]
+:0
+包标志：0
+[Information 2018-05-01 16:22:31 064 8708 0]
+:0
+优先级：0
+[Information 2018-05-01 16:22:31 087 8708 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 16:22:31 114 8708 0]
+:0
+数据包大小：21
+[Information 2018-05-01 16:22:31 137 8708 0]
+:0
+产生时刻：1525191751
+[Information 2018-05-01 16:22:31 163 8708 0]
+:0
+源设备标识：1
+[Information 2018-05-01 16:22:31 179 8708 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 16:22:31 210 8708 0]
+:0
+确认标志：0
+[Information 2018-05-01 16:22:31 241 8708 0]
+:0
+保留字：0
+[Information 2018-05-01 16:22:31 257 8708 0]
+:0
+网络类型：
+[Information 2018-05-01 16:22:31 288 8708 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 16:22:31 319 8708 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 16:23:07 822 11280 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 16:23:07 912 11280 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 16:23:07 933 11280 0]
+:0
+包标志：0
+[Information 2018-05-01 16:23:07 959 11280 0]
+:0
+优先级：0
+[Information 2018-05-01 16:23:07 983 11280 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 16:23:08 009 11280 0]
+:0
+数据包大小：21
+[Information 2018-05-01 16:23:08 033 11280 0]
+:0
+产生时刻：1525191787
+[Information 2018-05-01 16:23:08 059 11280 0]
+:0
+源设备标识：1
+[Information 2018-05-01 16:23:08 084 11280 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 16:23:08 109 11280 0]
+:0
+确认标志：0
+[Information 2018-05-01 16:23:08 142 11280 0]
+:0
+保留字：0
+[Information 2018-05-01 16:23:08 166 11280 0]
+:0
+网络类型：
+[Information 2018-05-01 16:23:08 182 11280 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 16:23:08 213 11280 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 16:24:19 539 6940 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 16:24:19 614 6940 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 16:24:19 634 6940 0]
+:0
+包标志：0
+[Information 2018-05-01 16:24:19 658 6940 0]
+:0
+优先级：0
+[Information 2018-05-01 16:24:19 685 6940 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 16:24:19 708 6940 0]
+:0
+数据包大小：21
+[Information 2018-05-01 16:24:19 735 6940 0]
+:0
+产生时刻：1525191859
+[Information 2018-05-01 16:24:19 768 6940 0]
+:0
+源设备标识：1
+[Information 2018-05-01 16:24:19 786 6940 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 16:24:19 818 6940 0]
+:0
+确认标志：0
+[Information 2018-05-01 16:24:19 849 6940 0]
+:0
+保留字：0
+[Information 2018-05-01 16:24:19 880 6940 0]
+:0
+网络类型：
+[Information 2018-05-01 16:24:19 896 6940 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 16:24:21 837 6940 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 16:25:55 471 17924 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 16:25:55 543 17924 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 16:25:55 563 17924 0]
+:0
+包标志：0
+[Information 2018-05-01 16:25:55 594 17924 0]
+:0
+优先级：0
+[Information 2018-05-01 16:25:55 621 17924 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 16:25:55 653 17924 0]
+:0
+数据包大小：21
+[Information 2018-05-01 16:25:55 676 17924 0]
+:0
+产生时刻：1525191955
+[Information 2018-05-01 16:25:55 707 17924 0]
+:0
+源设备标识：1
+[Information 2018-05-01 16:25:55 723 17924 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 16:25:55 754 17924 0]
+:0
+确认标志：0
+[Information 2018-05-01 16:25:55 785 17924 0]
+:0
+保留字：0
+[Information 2018-05-01 16:25:55 816 17924 0]
+:0
+网络类型：
+[Information 2018-05-01 16:25:55 848 17924 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 16:25:55 879 17924 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 16:26:10 166 17924 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 16:26:10 214 17924 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 16:26:10 246 17924 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 16:26:10 273 17924 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 16:26:10 273 17924 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 16:26:10 331 17924 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 16:26:10 363 17924 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 16:26:30 776 17924 0]
+:0
+FilePack::GetFilePackages分包总耗时为0
+
+[Information 2018-05-01 16:28:38 953 10208 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-01 16:28:39 021 10208 0]
+:0
+设备帧类型：0
+[Information 2018-05-01 16:28:39 040 10208 0]
+:0
+包标志：0
+[Information 2018-05-01 16:28:39 072 10208 0]
+:0
+优先级：0
+[Information 2018-05-01 16:28:39 098 10208 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-01 16:28:39 130 10208 0]
+:0
+数据包大小：21
+[Information 2018-05-01 16:28:39 154 10208 0]
+:0
+产生时刻：1525192119
+[Information 2018-05-01 16:28:39 185 10208 0]
+:0
+源设备标识：1
+[Information 2018-05-01 16:28:39 201 10208 0]
+:0
+目标设备信息：0
+[Information 2018-05-01 16:28:39 248 10208 0]
+:0
+确认标志：0
+[Information 2018-05-01 16:28:39 264 10208 0]
+:0
+保留字：0
+[Information 2018-05-01 16:28:39 295 10208 0]
+:0
+网络类型：
+[Information 2018-05-01 16:28:39 310 10208 0]
+:0
+网络地址：192.168.43.96
+[Information 2018-05-01 16:28:39 342 10208 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-01 16:28:46 773 10208 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-01 16:28:46 804 10208 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-01 16:28:46 836 10208 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-01 16:28:46 851 10208 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-01 16:28:46 851 10208 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-01 16:28:46 914 10208 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-01 16:28:46 930 10208 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-01 16:28:58 527 10208 0]
+:0
+FilePack::GetFilePackages分包总耗时为0
+
+[Information 2018-05-02 01:47:41 950 10568 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 01:50:16 778 13272 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 01:50:16 841 13272 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 01:50:16 856 13272 0]
+:0
+包标志：0
+[Information 2018-05-02 01:50:16 887 13272 0]
+:0
+优先级：0
+[Information 2018-05-02 01:50:16 919 13272 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 01:50:16 950 13272 0]
+:0
+数据包大小：21
+[Information 2018-05-02 01:50:16 981 13272 0]
+:0
+产生时刻：1525225816
+[Information 2018-05-02 01:50:16 997 13272 0]
+:0
+源设备标识：1
+[Information 2018-05-02 01:50:17 028 13272 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 01:50:17 044 13272 0]
+:0
+确认标志：0
+[Information 2018-05-02 01:50:17 075 13272 0]
+:0
+保留字：0
+[Information 2018-05-02 01:50:17 106 13272 0]
+:0
+网络类型：
+[Information 2018-05-02 01:50:17 122 13272 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 01:50:17 153 13272 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 01:50:20 211 13272 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 01:50:20 265 13272 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 01:50:20 292 13272 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 01:50:20 324 13272 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 01:50:20 350 13272 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 01:50:20 395 13272 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 01:50:20 407 13272 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 01:50:20 427 13272 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 01:50:20 508 13272 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 01:50:20 541 13272 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 01:50:20 567 13272 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 01:50:20 599 13272 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 01:50:20 626 13272 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 01:51:27 776 7332 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 01:51:27 856 7332 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 01:51:27 875 7332 0]
+:0
+包标志：0
+[Information 2018-05-02 01:51:27 899 7332 0]
+:0
+优先级：0
+[Information 2018-05-02 01:51:27 925 7332 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 01:51:27 949 7332 0]
+:0
+数据包大小：21
+[Information 2018-05-02 01:51:27 975 7332 0]
+:0
+产生时刻：1525225887
+[Information 2018-05-02 01:51:27 999 7332 0]
+:0
+源设备标识：1
+[Information 2018-05-02 01:51:28 025 7332 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 01:51:28 049 7332 0]
+:0
+确认标志：0
+[Information 2018-05-02 01:51:28 075 7332 0]
+:0
+保留字：0
+[Information 2018-05-02 01:51:28 099 7332 0]
+:0
+网络类型：
+[Information 2018-05-02 01:51:28 125 7332 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 01:51:28 152 7332 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 01:51:33 173 7332 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-02 01:51:33 200 7332 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 01:51:33 232 7332 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-02 01:51:33 259 7332 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 01:51:33 259 7332 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 01:51:33 316 7332 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-02 01:51:33 349 7332 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 01:52:02 388 7332 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-02 01:52:02 437 7332 1]
+:0
+设备帧类型：0
+[Information 2018-05-02 01:52:02 469 7332 1]
+:0
+包标志：0
+[Information 2018-05-02 01:52:02 496 7332 1]
+:0
+优先级：0
+[Information 2018-05-02 01:52:02 527 7332 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 01:52:02 553 7332 1]
+:0
+数据包大小：21
+[Information 2018-05-02 01:52:02 586 7332 1]
+:0
+产生时刻：1525225926
+[Information 2018-05-02 01:52:02 612 7332 1]
+:0
+源设备标识：3
+[Information 2018-05-02 01:52:02 644 7332 1]
+:0
+目标设备信息：0
+[Information 2018-05-02 01:52:02 670 7332 1]
+:0
+确认标志：0
+[Information 2018-05-02 01:52:02 702 7332 1]
+:0
+保留字：0
+[Information 2018-05-02 01:52:02 728 7332 1]
+:0
+网络类型：
+[Information 2018-05-02 01:52:02 760 7332 1]
+:0
+网络地址：192.168.2.102
+[Information 2018-05-02 01:52:02 787 7332 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 01:52:02 818 7332 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 01:52:02 846 7332 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-02 01:52:02 877 7332 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 01:52:02 904 7332 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 01:52:02 936 7332 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 01:52:02 962 7332 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 01:52:02 994 7332 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 01:52:03 023 7332 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 01:52:03 023 7332 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 01:52:03 061 7332 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 01:52:03 144 7332 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-02 01:52:03 171 7332 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 01:52:03 202 7332 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：216:订阅者的主题为:11200
+
+[Information 2018-05-02 01:52:03 228 7332 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:05:02 556 14804 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:05:02 607 14804 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:05:02 634 14804 0]
+:0
+包标志：0
+[Information 2018-05-02 02:05:02 666 14804 0]
+:0
+优先级：0
+[Information 2018-05-02 02:05:02 693 14804 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:05:02 725 14804 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:05:02 751 14804 0]
+:0
+产生时刻：1525226702
+[Information 2018-05-02 02:05:02 778 14804 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:05:02 809 14804 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:05:02 840 14804 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:05:02 856 14804 0]
+:0
+保留字：0
+[Information 2018-05-02 02:05:02 887 14804 0]
+:0
+网络类型：
+[Information 2018-05-02 02:05:02 903 14804 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:05:02 934 14804 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:05:07 955 14804 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-02 02:05:07 987 14804 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:05:08 018 14804 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-02 02:05:08 049 14804 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 02:05:08 049 14804 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:05:08 111 14804 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-02 02:05:08 143 14804 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:05:08 174 14804 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:05:24 758 14804 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-02 02:05:24 804 14804 1]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:05:24 836 14804 1]
+:0
+包标志：0
+[Information 2018-05-02 02:05:24 867 14804 1]
+:0
+优先级：0
+[Information 2018-05-02 02:05:24 898 14804 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:05:24 914 14804 1]
+:0
+数据包大小：21
+[Information 2018-05-02 02:05:24 945 14804 1]
+:0
+产生时刻：1525226729
+[Information 2018-05-02 02:05:24 976 14804 1]
+:0
+源设备标识：3
+[Information 2018-05-02 02:05:25 008 14804 1]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:05:25 039 14804 1]
+:0
+确认标志：0
+[Information 2018-05-02 02:05:25 070 14804 1]
+:0
+保留字：0
+[Information 2018-05-02 02:05:25 101 14804 1]
+:0
+网络类型：
+[Information 2018-05-02 02:05:25 133 14804 1]
+:0
+网络地址：192.168.2.102
+[Information 2018-05-02 02:05:25 148 14804 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:05:25 179 14804 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 02:05:25 226 14804 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-02 02:05:25 258 14804 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:05:25 273 14804 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:05:25 304 14804 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:05:25 336 14804 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:05:25 367 14804 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:05:25 398 14804 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:05:25 398 14804 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:05:25 429 14804 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:05:25 492 14804 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-02 02:05:25 508 14804 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:05:25 539 14804 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：255:订阅者的主题为:11200
+
+[Information 2018-05-02 02:05:25 570 14804 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:09:59 416 12316 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:09:59 482 12316 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:09:59 502 12316 0]
+:0
+包标志：0
+[Information 2018-05-02 02:09:59 533 12316 0]
+:0
+优先级：0
+[Information 2018-05-02 02:09:59 560 12316 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:09:59 587 12316 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:09:59 618 12316 0]
+:0
+产生时刻：1525226999
+[Information 2018-05-02 02:09:59 649 12316 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:09:59 665 12316 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:09:59 696 12316 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:09:59 743 12316 0]
+:0
+保留字：0
+[Information 2018-05-02 02:09:59 774 12316 0]
+:0
+网络类型：
+[Information 2018-05-02 02:09:59 805 12316 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:09:59 868 12316 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:10:03 149 12316 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-02 02:10:03 196 12316 1]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:10:03 227 12316 1]
+:0
+包标志：0
+[Information 2018-05-02 02:10:03 259 12316 1]
+:0
+优先级：0
+[Information 2018-05-02 02:10:03 290 12316 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:10:03 321 12316 1]
+:0
+数据包大小：21
+[Information 2018-05-02 02:10:03 368 12316 1]
+:0
+产生时刻：1525227007
+[Information 2018-05-02 02:10:03 399 12316 1]
+:0
+源设备标识：3
+[Information 2018-05-02 02:10:03 446 12316 1]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:10:03 477 12316 1]
+:0
+确认标志：0
+[Information 2018-05-02 02:10:03 509 12316 1]
+:0
+保留字：0
+[Information 2018-05-02 02:10:03 540 12316 1]
+:0
+网络类型：
+[Information 2018-05-02 02:10:03 571 12316 1]
+:0
+网络地址：192.168.2.102
+[Information 2018-05-02 02:10:03 618 12316 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:10:03 649 12316 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-02 02:10:03 681 12316 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-02 02:10:03 712 12316 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:10:03 743 12316 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:10:03 774 12316 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:10:03 774 12316 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:10:04 892 12316 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-02 02:10:04 955 12316 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:10:04 986 12316 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-02 02:10:05 017 12316 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 02:10:31 299 13612 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:10:31 336 13612 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:10:31 353 13612 0]
+:0
+包标志：0
+[Information 2018-05-02 02:10:31 388 13612 0]
+:0
+优先级：0
+[Information 2018-05-02 02:10:31 420 13612 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:10:31 452 13612 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:10:31 483 13612 0]
+:0
+产生时刻：1525227031
+[Information 2018-05-02 02:10:31 514 13612 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:10:31 546 13612 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:10:31 577 13612 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:10:31 608 13612 0]
+:0
+保留字：0
+[Information 2018-05-02 02:10:31 655 13612 0]
+:0
+网络类型：
+[Information 2018-05-02 02:10:31 686 13612 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:10:31 717 13612 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:10:36 733 13612 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-02 02:10:36 749 13612 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-02 02:10:36 764 13612 1]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:10:36 796 13612 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:10:36 827 13612 1]
+:0
+包标志：0
+[Information 2018-05-02 02:10:36 858 13612 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-02 02:10:36 889 13612 1]
+:0
+优先级：0
+[Information 2018-05-02 02:10:36 936 13612 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 02:10:36 968 13612 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:10:37 030 13612 1]
+:0
+数据包大小：21
+[Information 2018-05-02 02:10:37 061 13612 1]
+:0
+产生时刻：1525227040
+[Information 2018-05-02 02:10:37 093 13612 1]
+:0
+源设备标识：3
+[Information 2018-05-02 02:10:37 124 13612 1]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:10:37 171 13612 1]
+:0
+确认标志：0
+[Information 2018-05-02 02:10:37 202 13612 1]
+:0
+保留字：0
+[Information 2018-05-02 02:10:37 233 13612 1]
+:0
+网络类型：
+[Information 2018-05-02 02:10:37 264 13612 1]
+:0
+网络地址：192.168.2.102
+[Information 2018-05-02 02:10:37 296 13612 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:10:37 327 13612 1]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 02:10:37 358 13612 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-02 02:10:37 405 13612 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:10:37 436 13612 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:10:37 468 13612 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:10:37 499 13612 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:10:37 530 13612 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:10:37 561 13612 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:10:37 561 13612 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:10:37 593 13612 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:10:37 671 13612 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-02 02:10:37 702 13612 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:10:37 733 13612 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：109:订阅者的主题为:11200
+
+[Information 2018-05-02 02:10:37 764 13612 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:10:37 796 13612 1]
+:0
+收到自己发来的节点目录包，进入下一次接收
+[Information 2018-05-02 02:10:37 827 13612 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:10:37 858 13612 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:10:37 889 13612 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:15:48 949 15968 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:15:49 002 15968 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:15:49 023 15968 0]
+:0
+包标志：0
+[Information 2018-05-02 02:15:49 057 15968 0]
+:0
+优先级：0
+[Information 2018-05-02 02:15:49 089 15968 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:15:49 120 15968 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:15:49 151 15968 0]
+:0
+产生时刻：1525227349
+[Information 2018-05-02 02:15:49 182 15968 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:15:49 213 15968 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:15:49 229 15968 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:15:49 260 15968 0]
+:0
+保留字：0
+[Information 2018-05-02 02:15:49 292 15968 0]
+:0
+网络类型：
+[Information 2018-05-02 02:15:49 323 15968 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:15:49 354 15968 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:15:50 199 15968 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 02:15:50 249 15968 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 02:15:50 281 15968 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:15:50 308 15968 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:15:50 336 15968 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:15:50 367 15968 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:15:50 367 15968 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:15:50 399 15968 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:15:50 461 15968 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:15:50 477 15968 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:15:50 524 15968 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:15:50 539 15968 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:15:50 570 15968 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:15:50 727 15968 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:15:50 774 15968 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：85:订阅者的主题为:11200
+
+[Information 2018-05-02 02:19:43 637 6968 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:19:43 949 6968 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:19:43 972 6968 0]
+:0
+包标志：0
+[Information 2018-05-02 02:19:43 988 6968 0]
+:0
+优先级：0
+[Information 2018-05-02 02:19:44 019 6968 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:19:44 050 6968 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:19:44 081 6968 0]
+:0
+产生时刻：1525227583
+[Information 2018-05-02 02:19:44 113 6968 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:19:44 144 6968 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:19:44 175 6968 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:19:44 206 6968 0]
+:0
+保留字：0
+[Information 2018-05-02 02:19:44 222 6968 0]
+:0
+网络类型：
+[Information 2018-05-02 02:19:44 253 6968 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:19:44 284 6968 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:19:44 816 6968 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 02:19:44 831 6968 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 02:19:44 863 6968 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:19:44 894 6968 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:19:44 909 6968 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:19:44 941 6968 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:19:44 941 6968 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:19:44 972 6968 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:19:45 019 6968 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:19:45 050 6968 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:19:45 066 6968 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:19:45 097 6968 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:19:45 113 6968 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:19:45 144 6968 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:19:45 175 6968 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：16:订阅者的主题为:11200
+
+[Information 2018-05-02 02:22:28 218 17328 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:22:28 296 17328 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:22:28 312 17328 0]
+:0
+包标志：0
+[Information 2018-05-02 02:22:28 343 17328 0]
+:0
+优先级：0
+[Information 2018-05-02 02:22:28 375 17328 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:22:28 406 17328 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:22:28 437 17328 0]
+:0
+产生时刻：1525227748
+[Information 2018-05-02 02:22:28 468 17328 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:22:28 484 17328 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:22:28 515 17328 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:22:28 546 17328 0]
+:0
+保留字：0
+[Information 2018-05-02 02:22:28 578 17328 0]
+:0
+网络类型：
+[Information 2018-05-02 02:22:28 593 17328 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:22:28 625 17328 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:22:29 171 17328 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 02:22:29 187 17328 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 02:22:29 218 17328 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:22:29 234 17328 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:22:29 265 17328 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:22:29 296 17328 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:22:29 296 17328 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:22:29 328 17328 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:22:29 375 17328 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:22:29 390 17328 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:22:29 421 17328 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:22:29 453 17328 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:22:29 468 17328 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:22:29 531 17328 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:22:29 562 17328 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：128:订阅者的主题为:11200
+
+[Information 2018-05-02 02:29:49 931 1224 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:29:49 974 1224 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:29:49 996 1224 0]
+:0
+包标志：0
+[Information 2018-05-02 02:29:50 028 1224 0]
+:0
+优先级：0
+[Information 2018-05-02 02:29:50 054 1224 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:29:50 086 1224 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:29:50 113 1224 0]
+:0
+产生时刻：1525228189
+[Information 2018-05-02 02:29:50 144 1224 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:29:50 171 1224 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:29:50 203 1224 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:29:50 229 1224 0]
+:0
+保留字：0
+[Information 2018-05-02 02:29:50 247 1224 0]
+:0
+网络类型：
+[Information 2018-05-02 02:29:50 278 1224 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:29:50 310 1224 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:29:50 575 1224 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 02:29:50 653 1224 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 02:29:50 669 1224 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:29:50 700 1224 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:29:50 731 1224 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:29:50 763 1224 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:29:50 763 1224 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:29:50 794 1224 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:29:50 841 1224 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:29:50 872 1224 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:29:50 903 1224 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:29:50 935 1224 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:29:50 966 1224 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:29:50 997 1224 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：128:订阅者的主题为:11200
+
+[Information 2018-05-02 02:29:51 044 1224 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:31:15 441 12396 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:31:15 519 12396 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:31:15 597 12396 0]
+:0
+包标志：0
+[Information 2018-05-02 02:31:15 629 12396 0]
+:0
+优先级：0
+[Information 2018-05-02 02:31:15 660 12396 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:31:15 675 12396 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:31:15 707 12396 0]
+:0
+产生时刻：1525228275
+[Information 2018-05-02 02:31:15 754 12396 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:31:15 785 12396 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:31:15 816 12396 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:31:15 847 12396 0]
+:0
+保留字：0
+[Information 2018-05-02 02:31:15 879 12396 0]
+:0
+网络类型：
+[Information 2018-05-02 02:31:15 910 12396 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:31:15 957 12396 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:31:18 316 12396 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-02 02:31:18 379 12396 1]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:31:18 410 12396 1]
+:0
+包标志：0
+[Information 2018-05-02 02:31:18 441 12396 1]
+:0
+优先级：0
+[Information 2018-05-02 02:31:18 472 12396 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:31:18 504 12396 1]
+:0
+数据包大小：21
+[Information 2018-05-02 02:31:18 582 12396 1]
+:0
+产生时刻：1525228282
+[Information 2018-05-02 02:31:18 629 12396 1]
+:0
+源设备标识：3
+[Information 2018-05-02 02:31:18 660 12396 1]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:31:18 691 12396 1]
+:0
+确认标志：0
+[Information 2018-05-02 02:31:18 722 12396 1]
+:0
+保留字：0
+[Information 2018-05-02 02:31:18 754 12396 1]
+:0
+网络类型：
+[Information 2018-05-02 02:31:18 785 12396 1]
+:0
+网络地址：192.168.2.102
+[Information 2018-05-02 02:31:18 816 12396 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:31:18 847 12396 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-02 02:31:18 879 12396 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-02 02:31:18 910 12396 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:31:18 941 12396 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:31:18 972 12396 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:31:18 972 12396 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:31:20 957 12396 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-02 02:31:21 004 12396 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:31:21 035 12396 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-02 02:31:21 066 12396 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 02:31:37 307 15044 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:31:37 631 15044 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:31:37 653 15044 0]
+:0
+包标志：0
+[Information 2018-05-02 02:31:37 685 15044 0]
+:0
+优先级：0
+[Information 2018-05-02 02:31:37 716 15044 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:31:37 747 15044 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:31:37 778 15044 0]
+:0
+产生时刻：1525228297
+[Information 2018-05-02 02:31:37 810 15044 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:31:37 888 15044 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:31:37 935 15044 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:31:37 950 15044 0]
+:0
+保留字：0
+[Information 2018-05-02 02:31:37 981 15044 0]
+:0
+网络类型：
+[Information 2018-05-02 02:31:38 013 15044 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:31:38 044 15044 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:31:41 528 15044 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-02 02:31:41 575 15044 1]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:31:41 607 15044 1]
+:0
+包标志：0
+[Information 2018-05-02 02:31:41 638 15044 1]
+:0
+优先级：0
+[Information 2018-05-02 02:31:41 669 15044 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:31:41 716 15044 1]
+:0
+数据包大小：21
+[Information 2018-05-02 02:31:41 747 15044 1]
+:0
+产生时刻：1525228305
+[Information 2018-05-02 02:31:41 778 15044 1]
+:0
+源设备标识：3
+[Information 2018-05-02 02:31:41 810 15044 1]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:31:41 841 15044 1]
+:0
+确认标志：0
+[Information 2018-05-02 02:31:41 872 15044 1]
+:0
+保留字：0
+[Information 2018-05-02 02:31:41 903 15044 1]
+:0
+网络类型：
+[Information 2018-05-02 02:31:41 935 15044 1]
+:0
+网络地址：192.168.2.102
+[Information 2018-05-02 02:31:41 982 15044 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:31:42 013 15044 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-02 02:31:42 044 15044 1]
+:0
+ 节点列表中有：1个
+
+[Information 2018-05-02 02:31:42 075 15044 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:31:42 107 15044 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:31:42 153 15044 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:31:42 153 15044 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:31:43 107 15044 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-02 02:31:43 153 15044 5]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:31:43 185 15044 5]
+:0
+aitDicHand::CheckTimeOutState:: time out,且定自己为最小结点：id为1
+
+[Information 2018-05-02 02:31:43 216 15044 5]
+:0
+NodeDirectoryWriteHandle::HandleEnter，目录包发送完成
+[Information 2018-05-02 02:32:28 015 6952 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:32:28 085 6952 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:32:28 104 6952 0]
+:0
+包标志：0
+[Information 2018-05-02 02:32:28 131 6952 0]
+:0
+优先级：0
+[Information 2018-05-02 02:32:28 163 6952 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:32:28 195 6952 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:32:28 226 6952 0]
+:0
+产生时刻：1525228348
+[Information 2018-05-02 02:32:28 242 6952 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:32:28 273 6952 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:32:28 304 6952 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:32:28 336 6952 0]
+:0
+保留字：0
+[Information 2018-05-02 02:32:28 367 6952 0]
+:0
+网络类型：
+[Information 2018-05-02 02:32:28 398 6952 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:32:28 429 6952 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:32:28 695 6952 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 02:32:28 742 6952 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 02:32:28 773 6952 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:32:28 820 6952 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:32:28 851 6952 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:32:28 883 6952 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:32:28 883 6952 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:32:28 914 6952 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:32:28 976 6952 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:32:29 008 6952 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:32:29 039 6952 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:32:29 070 6952 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:32:29 101 6952 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:32:29 336 6952 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:32:29 367 6952 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：183:订阅者的主题为:11200
+
+[Information 2018-05-02 02:36:02 773 15624 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:36:02 843 15624 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:36:02 865 15624 0]
+:0
+包标志：0
+[Information 2018-05-02 02:36:02 896 15624 0]
+:0
+优先级：0
+[Information 2018-05-02 02:36:02 948 15624 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:36:02 966 15624 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:36:02 997 15624 0]
+:0
+产生时刻：1525228562
+[Information 2018-05-02 02:36:03 028 15624 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:36:03 060 15624 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:36:03 091 15624 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:36:03 138 15624 0]
+:0
+保留字：0
+[Information 2018-05-02 02:36:03 169 15624 0]
+:0
+网络类型：
+[Information 2018-05-02 02:36:03 200 15624 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:36:03 232 15624 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:36:04 043 15624 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 02:36:04 080 15624 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 02:36:04 123 15624 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:36:04 156 15624 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:36:04 190 15624 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:36:04 224 15624 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:36:04 224 15624 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:36:04 257 15624 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:36:04 323 15624 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:36:04 356 15624 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:36:04 389 15624 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:36:04 422 15624 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:36:04 456 15624 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:36:04 602 15624 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:36:04 625 15624 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：154:订阅者的主题为:11200
+
+[Information 2018-05-02 02:39:38 181 15548 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 02:39:38 217 15548 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 02:39:38 237 15548 0]
+:0
+包标志：0
+[Information 2018-05-02 02:39:38 272 15548 0]
+:0
+优先级：0
+[Information 2018-05-02 02:39:38 304 15548 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 02:39:38 339 15548 0]
+:0
+数据包大小：21
+[Information 2018-05-02 02:39:38 371 15548 0]
+:0
+产生时刻：1525228778
+[Information 2018-05-02 02:39:38 404 15548 0]
+:0
+源设备标识：1
+[Information 2018-05-02 02:39:38 435 15548 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 02:39:38 466 15548 0]
+:0
+确认标志：0
+[Information 2018-05-02 02:39:38 513 15548 0]
+:0
+保留字：0
+[Information 2018-05-02 02:39:38 560 15548 0]
+:0
+网络类型：
+[Information 2018-05-02 02:39:38 607 15548 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 02:39:38 654 15548 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 02:39:39 560 15548 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 02:39:39 580 15548 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 02:39:39 613 15548 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 02:39:39 648 15548 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 02:39:39 680 15548 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 02:39:39 708 15548 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 02:39:39 708 15548 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 02:39:39 755 15548 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 02:39:39 821 15548 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 02:39:39 848 15548 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 02:39:39 880 15548 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 02:39:39 906 15548 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 02:39:39 946 15548 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 02:39:40 090 15548 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 02:39:40 121 15548 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：102:订阅者的主题为:11200
+
+[Information 2018-05-02 03:05:23 732 8016 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 03:05:24 107 8016 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 03:05:24 154 8016 0]
+:0
+包标志：0
+[Information 2018-05-02 03:05:24 185 8016 0]
+:0
+优先级：0
+[Information 2018-05-02 03:05:24 232 8016 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 03:05:24 263 8016 0]
+:0
+数据包大小：21
+[Information 2018-05-02 03:05:24 294 8016 0]
+:0
+产生时刻：1525230324
+[Information 2018-05-02 03:05:24 325 8016 0]
+:0
+源设备标识：1
+[Information 2018-05-02 03:05:24 357 8016 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 03:05:24 388 8016 0]
+:0
+确认标志：0
+[Information 2018-05-02 03:05:24 419 8016 0]
+:0
+保留字：0
+[Information 2018-05-02 03:05:24 466 8016 0]
+:0
+网络类型：
+[Information 2018-05-02 03:05:24 497 8016 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 03:05:24 529 8016 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 03:05:24 575 8016 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：6
+
+[Information 2018-05-02 03:05:24 607 8016 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为6
+
+[Information 2018-05-02 03:05:24 638 8016 1]
+:0
+新节点加入完成,id号为6
+
+[Information 2018-05-02 03:05:24 669 8016 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 03:05:24 700 8016 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 03:05:24 732 8016 1]
+:0
+建立传输地址：192.168.2.98
+[Information 2018-05-02 03:05:24 732 8016 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 03:05:24 763 8016 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 03:05:24 842 8016 1]
+:0
+ 节点ID：6
+
+[Information 2018-05-02 03:05:24 875 8016 1]
+:0
+ IP地址：192.168.2.98
+
+[Information 2018-05-02 03:05:24 909 8016 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 03:05:24 932 8016 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 03:05:24 963 8016 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 03:05:25 088 8016 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：6的主题信息
+[Information 2018-05-02 03:05:25 104 8016 1]
+:0
+新加的主题为：订阅者节点Id：6,;订阅者的ID：121:订阅者的主题为:11200
+
+[Information 2018-05-02 03:05:29 666 8016 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，开始解包
+[Information 2018-05-02 03:05:29 908 8016 1]
+:0
+设备帧类型：0
+[Information 2018-05-02 03:05:29 938 8016 1]
+:0
+包标志：0
+[Information 2018-05-02 03:05:29 970 8016 1]
+:0
+优先级：0
+[Information 2018-05-02 03:05:30 001 8016 1]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 03:05:30 032 8016 1]
+:0
+数据包大小：21
+[Information 2018-05-02 03:05:30 063 8016 1]
+:0
+产生时刻：1525230333
+[Information 2018-05-02 03:05:30 095 8016 1]
+:0
+源设备标识：3
+[Information 2018-05-02 03:05:30 142 8016 1]
+:0
+目标设备信息：0
+[Information 2018-05-02 03:05:30 173 8016 1]
+:0
+确认标志：0
+[Information 2018-05-02 03:05:30 220 8016 1]
+:0
+保留字：0
+[Information 2018-05-02 03:05:30 251 8016 1]
+:0
+网络类型：
+[Information 2018-05-02 03:05:30 282 8016 1]
+:0
+网络地址：192.168.2.102
+[Information 2018-05-02 03:05:30 313 8016 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 03:05:30 345 8016 1]
+:0
+NodeJoinReadHandle::HandleEnter，接收到节点加入包，解包完成
+[Information 2018-05-02 03:05:30 376 8016 1]
+:0
+ 节点列表中有：3个
+
+[Information 2018-05-02 03:05:30 423 8016 1]
+:0
+ 节点ID：6
+
+[Information 2018-05-02 03:05:30 454 8016 1]
+:0
+ IP地址：192.168.2.98
+
+[Information 2018-05-02 03:05:30 485 8016 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 03:05:30 517 8016 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 03:05:30 548 8016 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 03:05:30 579 8016 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 03:05:30 626 8016 1]
+:0
+建立传输地址：192.168.2.98
+[Information 2018-05-02 03:05:30 657 8016 1]
+:0
+连接已经建立：192.168.2.98
+[Information 2018-05-02 03:05:30 688 8016 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 03:05:30 720 8016 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 03:05:30 767 8016 1]
+:0
+建立传输地址：192.168.2.98
+[Information 2018-05-02 03:05:30 798 8016 1]
+:0
+连接已经建立：192.168.2.98
+[Information 2018-05-02 03:05:30 829 8016 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 03:05:30 860 8016 1]
+:0
+连接已经建立：192.168.2.102
+[Information 2018-05-02 03:05:30 892 8016 1]
+:0
+ 节点列表中有：3个
+
+[Information 2018-05-02 03:05:30 923 8016 1]
+:0
+ 节点ID：6
+
+[Information 2018-05-02 03:05:30 954 8016 1]
+:0
+ IP地址：192.168.2.98
+
+[Information 2018-05-02 03:05:30 985 8016 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 03:05:31 032 8016 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 03:05:31 063 8016 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 03:05:31 126 8016 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 03:05:31 173 8016 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 03:05:31 220 8016 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：14:订阅者的主题为:11200
+
+[Information 2018-05-02 03:05:31 267 8016 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：6的主题信息
+[Information 2018-05-02 03:05:31 298 8016 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 07:31:16 206 14948 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 07:31:16 315 14948 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 07:31:16 331 14948 0]
+:0
+包标志：0
+[Information 2018-05-02 07:31:16 346 14948 0]
+:0
+优先级：0
+[Information 2018-05-02 07:31:16 409 14948 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 07:31:16 424 14948 0]
+:0
+数据包大小：21
+[Information 2018-05-02 07:31:16 440 14948 0]
+:0
+产生时刻：1525246276
+[Information 2018-05-02 07:31:16 502 14948 0]
+:0
+源设备标识：1
+[Information 2018-05-02 07:31:16 565 14948 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 07:31:16 581 14948 0]
+:0
+确认标志：0
+[Information 2018-05-02 07:31:16 596 14948 0]
+:0
+保留字：0
+[Information 2018-05-02 07:31:16 612 14948 0]
+:0
+网络类型：
+[Information 2018-05-02 07:31:16 627 14948 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 07:31:16 659 14948 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 08:35:21 556 17036 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 08:35:21 617 17036 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 08:35:21 629 17036 0]
+:0
+包标志：0
+[Information 2018-05-02 08:35:21 648 17036 0]
+:0
+优先级：0
+[Information 2018-05-02 08:35:21 689 17036 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 08:35:21 748 17036 0]
+:0
+数据包大小：21
+[Information 2018-05-02 08:35:21 763 17036 0]
+:0
+产生时刻：1525250121
+[Information 2018-05-02 08:35:21 771 17036 0]
+:0
+源设备标识：1
+[Information 2018-05-02 08:35:21 786 17036 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 08:35:21 802 17036 0]
+:0
+确认标志：0
+[Information 2018-05-02 08:35:21 818 17036 0]
+:0
+保留字：0
+[Information 2018-05-02 08:35:21 833 17036 0]
+:0
+网络类型：
+[Information 2018-05-02 08:35:21 849 17036 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 08:35:21 880 17036 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 08:36:30 202 17892 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 08:36:30 265 17892 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 08:36:30 281 17892 0]
+:0
+包标志：0
+[Information 2018-05-02 08:36:30 296 17892 0]
+:0
+优先级：0
+[Information 2018-05-02 08:36:30 314 17892 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 08:36:30 329 17892 0]
+:0
+数据包大小：21
+[Information 2018-05-02 08:36:30 347 17892 0]
+:0
+产生时刻：1525250190
+[Information 2018-05-02 08:36:30 362 17892 0]
+:0
+源设备标识：1
+[Information 2018-05-02 08:36:30 381 17892 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 08:36:30 397 17892 0]
+:0
+确认标志：0
+[Information 2018-05-02 08:36:30 414 17892 0]
+:0
+保留字：0
+[Information 2018-05-02 08:36:30 441 17892 0]
+:0
+网络类型：
+[Information 2018-05-02 08:36:30 464 17892 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 08:36:30 502 17892 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 08:36:42 367 3332 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 08:36:42 427 3332 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 08:36:42 448 3332 0]
+:0
+包标志：0
+[Information 2018-05-02 08:36:42 474 3332 0]
+:0
+优先级：0
+[Information 2018-05-02 08:36:42 497 3332 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 08:36:42 524 3332 0]
+:0
+数据包大小：21
+[Information 2018-05-02 08:36:42 547 3332 0]
+:0
+产生时刻：1525250202
+[Information 2018-05-02 08:36:42 574 3332 0]
+:0
+源设备标识：1
+[Information 2018-05-02 08:36:42 595 3332 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 08:36:42 610 3332 0]
+:0
+确认标志：0
+[Information 2018-05-02 08:36:42 642 3332 0]
+:0
+保留字：0
+[Information 2018-05-02 08:36:42 673 3332 0]
+:0
+网络类型：
+[Information 2018-05-02 08:36:42 704 3332 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 08:36:42 751 3332 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 08:37:43 762 1444 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 08:37:43 814 1444 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 08:37:43 850 1444 0]
+:0
+包标志：0
+[Information 2018-05-02 08:37:43 873 1444 0]
+:0
+优先级：0
+[Information 2018-05-02 08:37:43 898 1444 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 08:37:43 923 1444 0]
+:0
+数据包大小：21
+[Information 2018-05-02 08:37:43 956 1444 0]
+:0
+产生时刻：1525250263
+[Information 2018-05-02 08:37:43 980 1444 0]
+:0
+源设备标识：1
+[Information 2018-05-02 08:37:43 995 1444 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 08:37:44 042 1444 0]
+:0
+确认标志：0
+[Information 2018-05-02 08:37:44 074 1444 0]
+:0
+保留字：0
+[Information 2018-05-02 08:37:44 105 1444 0]
+:0
+网络类型：
+[Information 2018-05-02 08:37:44 120 1444 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 08:37:44 152 1444 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 08:37:49 776 1444 5]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：1
+
+[Information 2018-05-02 08:45:29 464 3052 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 08:45:29 507 3052 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 08:45:29 525 3052 0]
+:0
+包标志：0
+[Information 2018-05-02 08:45:29 552 3052 0]
+:0
+优先级：0
+[Information 2018-05-02 08:45:29 575 3052 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 08:45:29 602 3052 0]
+:0
+数据包大小：21
+[Information 2018-05-02 08:45:29 625 3052 0]
+:0
+产生时刻：1525250729
+[Information 2018-05-02 08:45:29 650 3052 0]
+:0
+源设备标识：1
+[Information 2018-05-02 08:45:29 666 3052 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 08:45:29 697 3052 0]
+:0
+确认标志：0
+[Information 2018-05-02 08:45:29 713 3052 0]
+:0
+保留字：0
+[Information 2018-05-02 08:45:29 744 3052 0]
+:0
+网络类型：
+[Information 2018-05-02 08:45:29 760 3052 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 08:45:29 791 3052 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 08:46:29 659 17060 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 08:46:29 690 17060 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 08:46:29 721 17060 0]
+:0
+包标志：0
+[Information 2018-05-02 08:46:29 753 17060 0]
+:0
+优先级：0
+[Information 2018-05-02 08:46:29 768 17060 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 08:46:29 800 17060 0]
+:0
+数据包大小：21
+[Information 2018-05-02 08:46:29 831 17060 0]
+:0
+产生时刻：1525250789
+[Information 2018-05-02 08:46:29 846 17060 0]
+:0
+源设备标识：1
+[Information 2018-05-02 08:46:29 878 17060 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 08:46:29 893 17060 0]
+:0
+确认标志：0
+[Information 2018-05-02 08:46:29 925 17060 0]
+:0
+保留字：0
+[Information 2018-05-02 08:46:29 956 17060 0]
+:0
+网络类型：
+[Information 2018-05-02 08:46:29 971 17060 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 08:46:30 003 17060 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 08:50:37 241 6416 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 08:50:37 314 6416 0]
+:0
+设备帧类型：0
+[Information 2018-05-02 08:50:37 337 6416 0]
+:0
+包标志：0
+[Information 2018-05-02 08:50:37 369 6416 0]
+:0
+优先级：0
+[Information 2018-05-02 08:50:37 404 6416 0]
+:0
+报文类型：NodeJoin
+[Information 2018-05-02 08:50:37 436 6416 0]
+:0
+数据包大小：21
+[Information 2018-05-02 08:50:37 487 6416 0]
+:0
+产生时刻：1525251037
+[Information 2018-05-02 08:50:37 522 6416 0]
+:0
+源设备标识：1
+[Information 2018-05-02 08:50:37 545 6416 0]
+:0
+目标设备信息：0
+[Information 2018-05-02 08:50:37 577 6416 0]
+:0
+确认标志：0
+[Information 2018-05-02 08:50:37 612 6416 0]
+:0
+保留字：0
+[Information 2018-05-02 08:50:37 643 6416 0]
+:0
+网络类型：
+[Information 2018-05-02 08:50:37 674 6416 0]
+:0
+网络地址：192.168.2.101
+[Information 2018-05-02 08:50:37 706 6416 1]
+:0
+收到自己发来的节点加入包
+[Information 2018-05-02 08:50:38 159 6416 1]
+:0
+ResourceManager::SetSmallestNodeID 最小结点为：3
+
+[Information 2018-05-02 08:50:38 206 6416 1]
+:0
+NodeDirectoryReadHandle::HandleEnter最小结点为,id号为3
+
+[Information 2018-05-02 08:50:38 253 6416 1]
+:0
+新节点加入完成,id号为1
+
+[Information 2018-05-02 08:50:38 284 6416 1]
+:0
+新节点加入完成,id号为3
+
+[Information 2018-05-02 08:50:38 315 6416 1]
+:0
+TopicPublisherWriteHandle::HandleEnter 发送主题定阅信息
+[Information 2018-05-02 08:50:38 346 6416 1]
+:0
+建立传输地址：192.168.2.102
+[Information 2018-05-02 08:50:38 346 6416 10]
+:0
+ServiceHandler::onReadable：shutdownSend
+[Information 2018-05-02 08:50:38 378 6416 1]
+:0
+ 节点列表中有：2个
+
+[Information 2018-05-02 08:50:38 440 6416 1]
+:0
+ 节点ID：1
+
+[Information 2018-05-02 08:50:38 471 6416 1]
+:0
+ IP地址：192.168.2.101
+
+[Information 2018-05-02 08:50:38 518 6416 1]
+:0
+ 节点ID：3
+
+[Information 2018-05-02 08:50:38 549 6416 1]
+:0
+ IP地址：192.168.2.102
+
+[Information 2018-05-02 08:50:38 581 6416 1]
+:0
+收到自己发来的主题订阅包，退出
+[Information 2018-05-02 08:50:38 619 6416 1]
+:0
+TopicPublisherReadHandle::HandleEnter 收到来自节点ID：3的主题信息
+[Information 2018-05-02 08:50:38 654 6416 1]
+:0
+新加的主题为：订阅者节点Id：3,;订阅者的ID：92:订阅者的主题为:11200
+
+[Information 2018-05-02 09:00:25 360 7012 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 09:04:22 574 3028 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 09:12:54 511 11852 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 09:31:25 624 9628 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 09:38:24 587 15968 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:01:52 964 12868 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:09:00 503 10404 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:10:24 206 8600 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:11:06 162 9640 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:13:47 787 17428 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:27:16 461 17320 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:27:59 592 2220 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:29:38 467 15932 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:30:01 384 13892 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区
+[Information 2018-05-02 10:30:22 464 17632 0]
+:0
+ReceiveQueue::Push:开始收到网络数据压入缓冲区

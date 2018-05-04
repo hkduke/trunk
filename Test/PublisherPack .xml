@@ -1,0 +1,17 @@
+<head name="标准包头">
+	<field name="FirstChar" len="1" type="unsigned char">
+		<subfield name="FramStyle" index="0" len="1" type="bool"></subfield>
+		<subfield name="PackFlag" index="1" len="2" type="unsigned char"></subfield>
+		<subfield name="Properity" index="2" len="5" type="unsigned char"></subfield>
+	</field>
+	<field name="报文长度" len="2" type="int"></field>
+	<field name="报文序号" len="2" type="int"></field>
+	<field name="数据产生时刻" len="4" type="int"></field>
+	<field name="信源设备标识" len="4" type="int"></field>
+	<field name="信宿设备标识" len="4" type="int"></field>
+	<field name="确认标志" len="2" type="int"></
+	<field name="保留字" len="2" type="int"></field>
+</head>
+<package name="数据指令报文" head="标准包头" id="0xA040">
+	<field name="目录数量" len="2" type="int"></field>
+</package>

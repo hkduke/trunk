@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F9516364-85FF-4410-A694-F62D2B4EEEE4}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UNICODE;WIN32;WIN64;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)GeneratedFiles;E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1;$(QTDIR)include;E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName);$(QTDIR)include$(QTDIR)QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Windows</SubSystem>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateDebugInformation>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">qtmaind.lib;Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath)</InputFile>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">output</DynamicSource>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)GeneratedFiles;E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1;$(QTDIR)include;E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName);$(QTDIR)include$(QTDIR)QtWidgets;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UNICODE;WIN32;WIN64;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</Define>
+      <QTDIR Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)</QTDIR>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)GeneratedFiles$(QTDIR)ui_%(Filename).h</OutputFile>
+      <QTDIR Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">d:</QTDIR>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath)</InputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)GeneratedFiles$(QTDIR)qrc_%(Filename).cpp</OutputFile>
+      <QTDIR Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">d:</QTDIR>
+      <InputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath)</InputFile>
+      <InitFuncName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(Filename)</InitFuncName>
+      <Compression Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">default</Compression>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Release</OutDir>
+    <IncludePath>$(QTDIR)/include;$(QTDIR)/include/QtCore;$(QTDIR)/include/QtXml;E:\boost_1_66_0;../NetCommunication/Core;../NetCommunication/Sockets;../NetCommunication;$(IncludePath)</IncludePath>
+    <LibraryPath>$(QTDIR)\lib;E:\boost_1_66_0\stage\lib;..\Release;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>..\Release;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_NO_DEBUG;NDEBUG;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)GeneratedFiles;E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1;$(QTDIR)include;E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName);E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)qtpropertybrowser;$(QTDIR)include$(QTDIR)QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>..\Release\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;NetCommunication.lib;TCPTransport.lib;PackageTypeManager.lib;Qt5Widgets.lib;Qt5Core.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)GeneratedFiles;E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1;$(QTDIR)include;E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName);E:$(QTDIR)work$(QTDIR)4Y4B$(QTDIR)trunk$(QTDIR)Test1$(QTDIR)qtpropertybrowser;$(QTDIR)include$(QTDIR)QtWidgets;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>UNICODE;WIN32;WIN64;QT_NO_DEBUG;NDEBUG;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</Define>
+      <QTDIR>$(QTDIR)</QTDIR>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.$(QTDIR)GeneratedFiles$(QTDIR)ui_%(Filename).h</OutputFile>
+      <QTDIR>%(QTDIR)</QTDIR>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.$(QTDIR)\GeneratedFiles$(QTDIR)qrc_%(Filename).cpp</OutputFile>
+      <QTDIR>%(QTDIR)</QTDIR>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <QtRcc Include="Test.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NodeDiscoverTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NodeDiscoverTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NodeDiscoverTest.cpp" />
+    <ClCompile Include="SendData.cpp" />
+    <ClCompile Include="XmlPackage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="NodeDiscoverTest.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)bin$(QTDIR)moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing NodeDiscoverTest.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName)$(QTDIR)moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)bin$(QTDIR)moc.exe"  "%(FullPath)" -o ".$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName)$(QTDIR)moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_CORE_LIB -DQT_WIDGETS_LIB -DQT_DLL  "-I.$(QTDIR)GeneratedFiles" "-I." "-I$(QTDIR)include" "-I.$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName)$(QTDIR)." "-I$(QTDIR)include$(QTDIR)QtCore" "-I$(QTDIR)include$(QTDIR)QtWidgets" "-IE:$(QTDIR)thirdpartylib$(QTDIR)boost_1_66_0"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)bin$(QTDIR)moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing NodeDiscoverTest.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName)$(QTDIR)moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)bin$(QTDIR)moc.exe"  "%(FullPath)" -o ".$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName)$(QTDIR)moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_WIDGETS_LIB -DQT_DLL -D_UNICODE  "-I.$(QTDIR)GeneratedFiles" "-I." "-I$(QTDIR)include" "-I.$(QTDIR)GeneratedFiles$(QTDIR)$(ConfigurationName)$(QTDIR)." "-I$(QTDIR)include$(QTDIR)QtCore" "-I$(QTDIR)include$(QTDIR)QtWidgets" "-I.$(QTDIR)qtpropertybrowser" "-IE:$(QTDIR)thirdpartylib$(QTDIR)boost_1_66_0"</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="NodeDiscoverTest.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SendData.h" />
+    <ClInclude Include="XmlPackage.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_Win32="Qt5.7.1" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

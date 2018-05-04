@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BUSDATA version="1.0">
+    <device name="车控软件" id="2" byteOrder="BIG"></device>
+    <type name="miss" len="11"></type>
+    <head name="标准包头" value="YES">
+        <field name="报文信息标识" default="0"></field>
+        <field name="报文长度" type="uint16" default="0"></field>
+        <field name="报文序号" type="uint16" default="0"></field>
+        <field name="数据产生时刻" type="uint32" default="0"></field>
+        <field name="信源设备标识" type="uint32" default="0"></field>
+        <field name="信宿设备标识" type="uint32" default="0"></field>
+        <field name="确认标志" type="uint16" default="0"></field>
+        <field name="保留字" default="0"></field>
+    </head>
+    <package name="新报文1" head="标准包头" id="11111">
+        <field name="a1" default=""></field>
+        <field name="a3" type="int64" default=""></field>
+        <field name="a4" type="uint16" default=""></field>
+    </package>
+    <package name="新报文2" head="标准包头" id="22222">
+        <field name="b1" array="2" default=""></field>
+        <field name="b2" array="2" default="">
+        </field>
+        <field name="b3" type="miss" default=""></field>
+        <field name="b4" type="uint64" default=""></field>
+    </package>
+    <head name="子标准头" value="NO">
+        <field name="RT子地址" default=""></field>
+        <field name="总线数据长度" default=""></field>
+    </head>
+    <subpackage name="陶梦" type="miss" head="子标准头">
+        <field name="field1" default=""></field>
+        <field name="field2" type="uint16" default=""></field>
+        <field name="field3" type="double" default=""></field>
+    </subpackage>
+</BUSDATA>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE XXXBUSTYPE>
+<BUSDATA version="1.0">
+	<device name="车控软件" id="02" byteOrder="BIG"></device>
+	<type name="missile1" len="68"></type>
+	<type name="missile2" len="68"></type>
+	<head name="标准包头" value="YES">
+		<field name="报文信息标识"></field>
+		<field name="报文长度" type="uint16"></field>
+		<field name="报文序号" type="uint16"></field>
+		<field name="数据产生时刻"  type="uint32"></field>
+		<field name="信源设备标识"  type="uint32"></field>
+		<field name="信宿设备标识"  type="uint32"></field>
+		<field name="确认标志"  type="uint16"></field>
+		<field name="保留字"></field>
+	</head>
+	<head name="子标准头" value="NO">
+		<field name="RT子地址"></field>
+		<field name="总线数据长度"></field>
+	</head>
+	<package name="数据指令报文" head="标准包头" id="11200">
+		<field name="武器号位" type="uint16"></field>
+		<field name="指令属性" type="uint16">
+			<subfield name="武器回传标志" index="0" len="1"></subfield>
+			<subfield name="发控回传标志" index="1" len="1"></subfield>
+			<subfield name="发控检查标志" index="2" len="1"></subfield>
+			<subfield name="保留块" index="3" len="13"></subfield>
+		</field>
+		<field name="数据指令个数" type="uint32"></field>
+		<field name="指令信息" type="missile1" array="数据指令个数"></field>
+		<field name="保留"></field>
+		<checksum algorithm="GJB1188"></checksum>
+	</package>
+	<subpackage name="1553B通讯检查命令" type="missile1" head="子标准头">
+		<field name="头字"></field>
+		<field name="标识码"></field>
+		<field name="控制字">
+			<subfield name="CW" index="12" len="4"></subfield>
+			<subfield name="保留块" index="3" len="13"></subfield>
+		</field>
+		<field name="特征字1"></field>
+		<field name="特征字2"></field>
+		<field name="特征字3"></field>
+		<field name="保留"></field>
+		<checksum algorithm="GJB1188"></checksum>
+	</subpackage>
+	<subpackage name="加电命令" type="missile2" head="子标准头">
+		<field name="头字"></field>
+		<field name="标识序列码">
+			<subfield name="指令标识码" index="8" len="8"></subfield>
+			<subfield name="消息序列码" index="0" len="8"></subfield>
+		</field>
+		<field name="控制字">
+			<subfield name="CW" index="12" len="4"></subfield>
+		</field>
+		<field name="特征字1"></field>
+		<field name="特征字2"></field>
+		<field name="特征字3"></field>
+		<field name="保留"></field>
+		<checksum algorithm="GJB1188"></checksum>
+	</subpackage>
+</BUSDATA>

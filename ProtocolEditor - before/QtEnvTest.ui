@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtEnvTestClass</class>
+ <widget class="QMainWindow" name="QtEnvTestClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>838</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtEnvTest</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_6">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>协议管理</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="1,2">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,0">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                 <widget class="QGroupBox" name="groupBox">
+                  <property name="title">
+                   <string>协议管理</string>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_3">
+                   <item row="0" column="0">
+                    <widget class="ProtocolNoReceiveTreeWidget" name="m_treeWidget_protManager">
+                     <column>
+                      <property name="text">
+                       <string notr="true">1</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_2">
+                  <property name="title">
+                   <string>报文数据管理</string>
+                  </property>
+                  <layout class="QGridLayout" name="gridLayout_4">
+                   <item row="0" column="0">
+                    <widget class="DeviceNoReceiveTreeWidget" name="m_treeWidget_messageManager">
+                     <column>
+                      <property name="text">
+                       <string>结构名称</string>
+                      </property>
+                     </column>
+                     <column>
+                      <property name="text">
+                       <string>备注</string>
+                      </property>
+                     </column>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QWidget" name="m_widgetCenterProtocol" native="true"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QWidget" name="widget" native="true">
+              <layout class="QGridLayout" name="gridLayout">
+               <item row="0" column="0">
+                <layout class="QHBoxLayout" name="horizontalLayout_ProtManager"/>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>发布定阅管理</string>
+         </attribute>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_8" stretch="1,2">
+            <item>
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="title">
+               <string>设备管理</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_5">
+               <item row="0" column="0">
+                <widget class="QTreeWidget" name="m_treeWidget_devManager">
+                 <column>
+                  <property name="text">
+                   <string notr="true">1</string>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QWidget" name="m_widget_centerDev" native="true">
+              <layout class="QGridLayout" name="gridLayout_2">
+               <item row="0" column="0">
+                <layout class="QHBoxLayout" name="m_horizontalLayout_dev"/>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="3,1,1">
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>协议版本信息：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="m_lineEdit_VersionInfor"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>838</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="m_action_open"/>
+    <addaction name="m_action_save"/>
+    <addaction name="m_actionWord"/>
+    <addaction name="separator"/>
+    <addaction name="m_action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>报文数据编辑</string>
+    </property>
+    <addaction name="m_action_msgOpen"/>
+    <addaction name="m_action_msgSave"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>通讯协议管理</string>
+    </property>
+    <addaction name="m_action_protocolOpen"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>发布定阅管理</string>
+    </property>
+    <addaction name="m_action_deviceOpen"/>
+    <addaction name="m_action_deviceSave"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="m_action_open">
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="m_action_save">
+   <property name="text">
+    <string>保存xlm</string>
+   </property>
+  </action>
+  <action name="m_action_exit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="m_action_deviceOpen">
+   <property name="text">
+    <string>打开发布定阅</string>
+   </property>
+   <property name="iconText">
+    <string>保存发布定阅</string>
+   </property>
+   <property name="toolTip">
+    <string>发布定阅管理</string>
+   </property>
+  </action>
+  <action name="m_action_deviceSave">
+   <property name="text">
+    <string>保存节点信息</string>
+   </property>
+   <property name="toolTip">
+    <string>保存节点信息</string>
+   </property>
+  </action>
+  <action name="m_actionWord">
+   <property name="text">
+    <string>保存word</string>
+   </property>
+  </action>
+  <action name="m_action_msgOpen">
+   <property name="text">
+    <string>读入报文数据</string>
+   </property>
+  </action>
+  <action name="m_action_msgSave">
+   <property name="text">
+    <string>导出报文数据</string>
+   </property>
+  </action>
+  <action name="m_action_protocolOpen">
+   <property name="text">
+    <string>导入协议</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ProtocolNoReceiveTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>protocolnoreceivetreewidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>DeviceNoReceiveTreeWidget</class>
+   <extends>QTreeWidget</extends>
+   <header>devicenoreceivetreewidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="qtenvtest.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Communication\ACKHandle.cpp" />
+    <ClCompile Include="Communication\AckQueue.cpp" />
+    <ClCompile Include="Communication\ACKReadHandle.cpp" />
+    <ClCompile Include="Communication\ACKWriteHandle.cpp" />
+    <ClCompile Include="Communication\BlendModeNet.cpp" />
+    <ClCompile Include="Communication\CharObject.cpp" />
+    <ClCompile Include="Communication\ConfigFile.cpp" />
+    <ClCompile Include="Communication\DataHandle.cpp" />
+    <ClCompile Include="Communication\DataLink.cpp" />
+    <ClCompile Include="Communication\DataLinkFactory.cpp" />
+    <ClCompile Include="Communication\DataLinkMap.cpp" />
+    <ClCompile Include="Communication\DataReadHandle.cpp" />
+    <ClCompile Include="Communication\DataSampleElement.cpp" />
+    <ClCompile Include="Communication\DataSampleElementList.cpp" />
+    <ClCompile Include="Communication\DataWriteHandle.cpp" />
+    <ClCompile Include="Communication\DataWriterListener.cpp" />
+    <ClCompile Include="Communication\DoubleObject.cpp" />
+    <ClCompile Include="Communication\FileTranseHandle.cpp" />
+    <ClCompile Include="Communication\FileTranseManager.cpp" />
+    <ClCompile Include="Communication\HeartBeatCheck.cpp" />
+    <ClCompile Include="Communication\HeartBeatCommit.cpp" />
+    <ClCompile Include="Communication\HeartBeatHandle.cpp" />
+    <ClCompile Include="Communication\HeartBeatReadHandle.cpp" />
+    <ClCompile Include="Communication\HeartBeatWriteHandle.cpp" />
+    <ClCompile Include="Communication\IntObject.cpp" />
+    <ClCompile Include="Communication\MsgPushCommon.cpp" />
+    <ClCompile Include="Communication\MsgSendQueue.cpp" />
+    <ClCompile Include="Communication\MsgSendTocpicQueue.cpp" />
+    <ClCompile Include="Communication\NetCommunication.cpp" />
+    <ClCompile Include="Communication\NodeDirectoryReadHandle.cpp" />
+    <ClCompile Include="Communication\NodeDirectoryTimer.cpp" />
+    <ClCompile Include="Communication\NodeDirectoryWriteHandle.cpp" />
+    <ClCompile Include="Communication\NodeExitReadHandle.cpp" />
+    <ClCompile Include="Communication\NodeExitWriteHandle.cpp" />
+    <ClCompile Include="Communication\NodeJoinReadHandle.cpp" />
+    <ClCompile Include="Communication\NodeJoinWriteHandle.cpp" />
+    <ClCompile Include="Communication\Participator.cpp" />
+    <ClCompile Include="Communication\NodeDirectoryHandle.cpp" />
+    <ClCompile Include="Communication\NodeExitHandle.cpp" />
+    <ClCompile Include="Communication\NodeJoinHandle.cpp" />
+    <ClCompile Include="Communication\PINGHandle.cpp" />
+    <ClCompile Include="Communication\PINGReadHandle.cpp" />
+    <ClCompile Include="Communication\PINGWriteHandle.cpp" />
+    <ClCompile Include="Communication\ReceiveQueue.cpp" />
+    <ClCompile Include="Communication\ReStateHandle.cpp" />
+    <ClCompile Include="Communication\ReStateReadHandle.cpp" />
+    <ClCompile Include="Communication\ReStateWriteHandle.cpp" />
+    <ClCompile Include="Communication\FileSendQueue.cpp" />
+    <ClCompile Include="Communication\TopicPublisherHandle.cpp" />
+    <ClCompile Include="Communication\TopicPublisherReadHandle.cpp" />
+    <ClCompile Include="Communication\TopicPublisherWriteHandle.cpp" />
+    <ClCompile Include="Communication\Transport.cpp" />
+    <ClCompile Include="Communication\TransportContext.cpp" />
+    <ClCompile Include="Communication\TransportSendStrategy.cpp" />
+    <ClCompile Include="Communication\TypeObject.cpp" />
+    <ClCompile Include="Communication\WaitSmallestHandle.cpp" />
+    <ClCompile Include="Core\AbstractConfiguration.cpp" />
+    <ClCompile Include="Core\AbstractObserver.cpp" />
+    <ClCompile Include="Core\ACKPack.cpp" />
+    <ClCompile Include="Core\ActiveDispatcher.cpp" />
+    <ClCompile Include="Core\adler32.c" />
+    <ClCompile Include="Core\ArchiveStrategy.cpp" />
+    <ClCompile Include="Core\Ascii.cpp" />
+    <ClCompile Include="Core\ASCIIEncoding.cpp" />
+    <ClCompile Include="Core\AsyncChannel.cpp" />
+    <ClCompile Include="Core\AtomicCounter.cpp" />
+    <ClCompile Include="Core\BinaryReader.cpp" />
+    <ClCompile Include="Core\BinaryWriter.cpp" />
+    <ClCompile Include="Core\Bugcheck.cpp" />
+    <ClCompile Include="Core\ByteOrder.cpp" />
+    <ClCompile Include="Core\CANNode.cpp" />
+    <ClCompile Include="Core\Channel.cpp" />
+    <ClCompile Include="Core\Checksum.cpp" />
+    <ClCompile Include="Core\Clock.cpp" />
+    <ClCompile Include="Core\CommonTool.cpp" />
+    <ClCompile Include="Core\Configurable.cpp" />
+    <ClCompile Include="Core\ConfigurationView.cpp" />
+    <ClCompile Include="Core\CoreComponent.cpp" />
+    <ClCompile Include="Core\CountingStream.cpp" />
+    <ClCompile Include="Core\crc32.c" />
+    <ClCompile Include="Core\DataPack.cpp" />
+    <ClCompile Include="Core\DateTime.cpp" />
+    <ClCompile Include="Core\DateTimeFormat.cpp" />
+    <ClCompile Include="Core\DateTimeFormatter.cpp" />
+    <ClCompile Include="Core\DateTimeParser.cpp" />
+    <ClCompile Include="Core\Debugger.cpp" />
+    <ClCompile Include="Core\deflate.c" />
+    <ClCompile Include="Core\DeflatingStream.cpp" />
+    <ClCompile Include="Core\Dict.cpp" />
+    <ClCompile Include="Core\DictDirectory.cpp" />
+    <ClCompile Include="Core\DictDirectoryImp.cpp" />
+    <ClCompile Include="Core\DictFrame.cpp" />
+    <ClCompile Include="Core\DictFrameImp.cpp" />
+    <ClCompile Include="Core\DictImp.cpp" />
+    <ClCompile Include="Core\DictIterator.cpp" />
+    <ClCompile Include="Core\DigestEngine.cpp" />
+    <ClCompile Include="Core\DirectoryIterator.cpp" />
+    <ClCompile Include="Core\DirectoryIteratorStrategy.cpp" />
+    <ClCompile Include="Core\DiscribeFailPack.cpp" />
+    <ClCompile Include="Core\DiscribeSuccessPack.cpp" />
+    <ClCompile Include="Core\Environment.cpp" />
+    <ClCompile Include="Core\Error.cpp" />
+    <ClCompile Include="Core\ErrorHandler.cpp" />
+    <ClCompile Include="Core\Event.cpp" />
+    <ClCompile Include="Core\EventChannel.cpp" />
+    <ClCompile Include="Core\EventHandle.cpp" />
+    <ClCompile Include="Core\EventLogChannel.cpp" />
+    <ClCompile Include="Core\EventManager.cpp" />
+    <ClCompile Include="Core\Exception.cpp" />
+    <ClCompile Include="Core\File.cpp" />
+    <ClCompile Include="Core\FileChannel.cpp" />
+    <ClCompile Include="Core\FilePack.cpp" />
+    <ClCompile Include="Core\FileStream.cpp" />
+    <ClCompile Include="Core\FileStreamFactory.cpp" />
+    <ClCompile Include="Core\Format.cpp" />
+    <ClCompile Include="Core\Formatter.cpp" />
+    <ClCompile Include="Core\FormattingChannel.cpp" />
+    <ClCompile Include="Core\FPEnvironment_WIN32.cpp" />
+    <ClCompile Include="Core\Framework.cpp" />
+    <ClCompile Include="Core\GainDirectoryPack.cpp" />
+    <ClCompile Include="Core\Hash.cpp" />
+    <ClCompile Include="Core\HeartBeatPack.cpp" />
+    <ClCompile Include="Core\IniFileConfiguration.cpp" />
+    <ClCompile Include="Core\IPNode.cpp" />
+    <ClCompile Include="Core\Latin1Encoding.cpp" />
+    <ClCompile Include="Core\Latin2Encoding.cpp" />
+    <ClCompile Include="Core\Latin9Encoding.cpp" />
+    <ClCompile Include="Core\LineEndingConverter.cpp" />
+    <ClCompile Include="Core\LocalDateTime.cpp" />
+    <ClCompile Include="Core\LogFile.cpp" />
+    <ClCompile Include="Core\Logger.cpp" />
+    <ClCompile Include="Core\LoggingConfigurator.cpp" />
+    <ClCompile Include="Core\LoggingFactory.cpp" />
+    <ClCompile Include="Core\LoggingRegistry.cpp" />
+    <ClCompile Include="Core\LogManager.cpp" />
+    <ClCompile Include="Core\LogStream.cpp" />
+    <ClCompile Include="Core\LookupPublisherFailPack.cpp" />
+    <ClCompile Include="Core\LookupPublisherSuccessPack.cpp" />
+    <ClCompile Include="Core\main.cpp" />
+    <ClCompile Include="Core\ManagePack.cpp" />
+    <ClCompile Include="Core\Manifest.cpp" />
+    <ClCompile Include="Core\MapConfiguration.cpp" />
+    <ClCompile Include="Core\MD5Engine.cpp" />
+    <ClCompile Include="Core\MemoryStream.cpp" />
+    <ClCompile Include="Core\Message.cpp" />
+    <ClCompile Include="Core\MessageRouteProcess.cpp" />
+    <ClCompile Include="Core\Mutex.cpp" />
+    <ClCompile Include="Core\NamedEvent.cpp" />
+    <ClCompile Include="Core\NodeAddr.cpp" />
+    <ClCompile Include="Core\NodeBase.cpp" />
+    <ClCompile Include="Core\NodeDirectoryPack.cpp" />
+    <ClCompile Include="Core\NodeExitPack.cpp" />
+    <ClCompile Include="Core\NodeJoinPack.cpp" />
+    <ClCompile Include="Core\Notification.cpp" />
+    <ClCompile Include="Core\NotificationCenter.cpp" />
+    <ClCompile Include="Core\NotificationQueue.cpp" />
+    <ClCompile Include="Core\NullChannel.cpp" />
+    <ClCompile Include="Core\NumberFormatter.cpp" />
+    <ClCompile Include="Core\NumberParser.cpp" />
+    <ClCompile Include="Core\NumericString.cpp" />
+    <ClCompile Include="Core\PackageBase.cpp" />
+    <ClCompile Include="Core\PackFactory.cpp" />
+    <ClCompile Include="Core\PackRoute.cpp" />
+    <ClCompile Include="Core\ParseDict.cpp" />
+    <ClCompile Include="Core\Path.cpp" />
+    <ClCompile Include="Core\PatternFormatter.cpp" />
+    <ClCompile Include="Core\pcre_config.c" />
+    <ClCompile Include="Core\pcre_tables.c" />
+    <ClCompile Include="Core\pcre_ucd.c" />
+    <ClCompile Include="Core\PingPack.cpp" />
+    <ClCompile Include="Core\Pipe.cpp" />
+    <ClCompile Include="Core\PipeImpl.cpp" />
+    <ClCompile Include="Core\PluginManager.cpp" />
+    <ClCompile Include="Core\Process.cpp" />
+    <ClCompile Include="Core\PropertyFileConfiguration.cpp" />
+    <ClCompile Include="Core\Publisher.cpp" />
+    <ClCompile Include="Core\PurgeStrategy.cpp" />
+    <ClCompile Include="Core\Random.cpp" />
+    <ClCompile Include="Core\RandomStream.cpp" />
+    <ClCompile Include="Core\RefCountedObject.cpp" />
+    <ClCompile Include="Core\RefreshNodeDirectoryPack.cpp" />
+    <ClCompile Include="Core\ResourceManager.cpp" />
+    <ClCompile Include="Core\ReStatePack.cpp" />
+    <ClCompile Include="Core\RotateStrategy.cpp" />
+    <ClCompile Include="Core\Runnable.cpp" />
+    <ClCompile Include="Core\RWLock.cpp" />
+    <ClCompile Include="Core\SHA1Engine.cpp" />
+    <ClCompile Include="Core\SharedLibrary.cpp" />
+    <ClCompile Include="Core\SimpleFileChannel.cpp" />
+    <ClCompile Include="Core\SplitterChannel.cpp" />
+    <ClCompile Include="Core\StreamCopier.cpp" />
+    <ClCompile Include="Core\StreamTokenizer.cpp" />
+    <ClCompile Include="Core\StringTokenizer.cpp" />
+    <ClCompile Include="Core\Subscribe.cpp" />
+    <ClCompile Include="Core\TextConverter.cpp" />
+    <ClCompile Include="Core\TextEncoding.cpp" />
+    <ClCompile Include="Core\TextIterator.cpp" />
+    <ClCompile Include="Core\Thread.cpp" />
+    <ClCompile Include="Core\ThreadLocal.cpp" />
+    <ClCompile Include="Core\ThreadPool.cpp" />
+    <ClCompile Include="Core\ThreadTarget.cpp" />
+    <ClCompile Include="Core\Timer.cpp" />
+    <ClCompile Include="Core\TimerHandle.cpp" />
+    <ClCompile Include="Core\Timespan.cpp" />
+    <ClCompile Include="Core\Timestamp.cpp" />
+    <ClCompile Include="Core\Timezone.cpp" />
+    <ClCompile Include="Core\Token.cpp" />
+    <ClCompile Include="Core\TopicPublisherListPack.cpp" />
+    <ClCompile Include="Core\TopicPublisherPack.cpp" />
+    <ClCompile Include="Core\TopicRecord.cpp" />
+    <ClCompile Include="Core\TopicRecordImp.cpp" />
+    <ClCompile Include="Core\TransportContext.cpp" />
+    <ClCompile Include="Core\trees.c" />
+    <ClCompile Include="Core\Unicode.cpp" />
+    <ClCompile Include="Core\UnicodeConverter.cpp" />
+    <ClCompile Include="Core\URI.cpp" />
+    <ClCompile Include="Core\URIStreamFactory.cpp" />
+    <ClCompile Include="Core\URIStreamOpener.cpp" />
+    <ClCompile Include="Core\UserInterface.cpp" />
+    <ClCompile Include="Core\UTF16Encoding.cpp" />
+    <ClCompile Include="Core\UTF32Encoding.cpp" />
+    <ClCompile Include="Core\UTF8Encoding.cpp" />
+    <ClCompile Include="Core\UTF8String.cpp" />
+    <ClCompile Include="Core\UUID.cpp" />
+    <ClCompile Include="Core\UUIDGenerator.cpp" />
+    <ClCompile Include="Core\WaitDicHand.cpp" />
+    <ClCompile Include="Core\Windows1250Encoding.cpp" />
+    <ClCompile Include="Core\Windows1251Encoding.cpp" />
+    <ClCompile Include="Core\Windows1252Encoding.cpp" />
+    <ClCompile Include="Core\WindowsConsoleChannel.cpp" />
+    <ClCompile Include="Core\zutil.c" />
+    <ClCompile Include="NodeDiscover\NodeDiscover.cpp" />
+    <ClCompile Include="PackageTypeManager\BasePackage.cpp" />
+    <ClCompile Include="PackageTypeManager\PackageTypeManager.cpp" />
+    <ClCompile Include="PackageTypeManager\PackManager.cpp" />
+    <ClCompile Include="PackageTypeManager\XmlPackage.cpp" />
+    <ClCompile Include="Public\ITransportStrategy.cpp" />
+    <ClCompile Include="Reactor\SocketNotification.cpp" />
+    <ClCompile Include="Reactor\SocketNotifier.cpp" />
+    <ClCompile Include="Reactor\SocketReactor.cpp" />
+    <ClCompile Include="Sockets\DatagramSocket.cpp" />
+    <ClCompile Include="Sockets\DatagramSocketImpl.cpp" />
+    <ClCompile Include="Sockets\DialogSocket.cpp" />
+    <ClCompile Include="Sockets\DNS.cpp" />
+    <ClCompile Include="Sockets\HostEntry.cpp" />
+    <ClCompile Include="Sockets\IPAddress.cpp" />
+    <ClCompile Include="Sockets\IPAddressImpl.cpp" />
+    <ClCompile Include="Sockets\MulticastSocket.cpp" />
+    <ClCompile Include="Sockets\Net.cpp" />
+    <ClCompile Include="Sockets\NetException.cpp" />
+    <ClCompile Include="Sockets\NetworkInterface.cpp" />
+    <ClCompile Include="Sockets\PollSet.cpp" />
+    <ClCompile Include="Sockets\RawSocket.cpp" />
+    <ClCompile Include="Sockets\RawSocketImpl.cpp" />
+    <ClCompile Include="Sockets\ServerSocket.cpp" />
+    <ClCompile Include="Sockets\ServerSocketImpl.cpp" />
+    <ClCompile Include="Sockets\Socket.cpp" />
+    <ClCompile Include="Sockets\SocketAddress.cpp" />
+    <ClCompile Include="Sockets\SocketAddressImpl.cpp" />
+    <ClCompile Include="Sockets\SocketImpl.cpp" />
+    <ClCompile Include="Sockets\SocketStream.cpp" />
+    <ClCompile Include="Sockets\StreamSocket.cpp" />
+    <ClCompile Include="Sockets\StreamSocketImpl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Communication\ACKHandle.h" />
+    <ClInclude Include="Communication\AckQueue.h" />
+    <ClInclude Include="Communication\ACKReadHandle.h" />
+    <ClInclude Include="Communication\ACKWriteHandle.h" />
+    <ClInclude Include="Communication\AskForSmallestWriterHandle.h" />
+    <ClInclude Include="Communication\BlendModeNet.h" />
+    <ClInclude Include="Communication\CharObject.h" />
+    <ClInclude Include="Communication\ConfigFile.h" />
+    <ClInclude Include="Communication\DataHandle.h" />
+    <ClInclude Include="Communication\DataLink.h" />
+    <ClInclude Include="Communication\DataLinkFactory.h" />
+    <ClInclude Include="Communication\DataLinkMap.h" />
+    <ClInclude Include="Communication\DataReadHandle.h" />
+    <ClInclude Include="Communication\DataSampleElement.h" />
+    <ClInclude Include="Communication\DataSampleElementList.h" />
+    <ClInclude Include="Communication\DataWriteHandle.h" />
+    <ClInclude Include="Communication\DataWriterListener.h" />
+    <ClInclude Include="Communication\DoubleObject.h" />
+    <ClInclude Include="Communication\FileTranseHandle.h" />
+    <ClInclude Include="Communication\FileTranseManager.h" />
+    <ClInclude Include="Communication\HeartBeatCheck.h" />
+    <ClInclude Include="Communication\HeartBeatCommit.h" />
+    <ClInclude Include="Communication\HeartBeatHandle.h" />
+    <ClInclude Include="Communication\HeartBeatReadHandle.h" />
+    <ClInclude Include="Communication\HeartBeatWriteHandle.h" />
+    <ClInclude Include="Communication\IntObject.h" />
+    <ClInclude Include="Communication\MsgPushCommon.h" />
+    <ClInclude Include="Communication\MsgSendQueue.h" />
+    <ClInclude Include="Communication\MsgSendTocpicQueue.h" />
+    <ClInclude Include="Communication\NetCommunication.h" />
+    <ClInclude Include="Communication\NodeDirectoryReadHandle.h" />
+    <ClInclude Include="Communication\NodeDirectoryTimer.h" />
+    <ClInclude Include="Communication\NodeDirectoryWriteHandle.h" />
+    <ClInclude Include="Communication\NodeExitReadHandle.h" />
+    <ClInclude Include="Communication\NodeExitWriteHandle.h" />
+    <ClInclude Include="Communication\NodeJoinReadHandle.h" />
+    <ClInclude Include="Communication\NodeJoinWriteHandle.h" />
+    <ClInclude Include="Communication\Participator.h" />
+    <ClInclude Include="Communication\NodeDirectoryHandle.h" />
+    <ClInclude Include="Communication\NodeExitHandle.h" />
+    <ClInclude Include="Communication\NodeJoinHandle.h" />
+    <ClInclude Include="Communication\PINGHandle.h" />
+    <ClInclude Include="Communication\PINGReadHandle.h" />
+    <ClInclude Include="Communication\PINGWriteHandle.h" />
+    <ClInclude Include="Communication\ReceiveQueue.h" />
+    <ClInclude Include="Communication\ReStateHandle.h" />
+    <ClInclude Include="Communication\ReStateReadHandle.h" />
+    <ClInclude Include="Communication\ReStateWriteHandle.h" />
+    <ClInclude Include="Communication\FileSendQueue.h" />
+    <ClInclude Include="Communication\TopicPublisherHandle.h" />
+    <ClInclude Include="Communication\TopicPublisherReadHandle.h" />
+    <ClInclude Include="Communication\TopicPublisherWriteHandle.h" />
+    <ClInclude Include="Communication\Transport.h" />
+    <ClInclude Include="Communication\TransportContext.h" />
+    <ClInclude Include="Communication\TransportSendStrategy.h" />
+    <ClInclude Include="Communication\TypeObject.h" />
+    <ClInclude Include="Communication\WaitSmallestHandle.h" />
+    <ClInclude Include="Core\AbstractConfiguration.h" />
+    <ClInclude Include="Core\AbstractDelegate.h" />
+    <ClInclude Include="Core\AbstractEvent.h" />
+    <ClInclude Include="Core\AbstractObserver.h" />
+    <ClInclude Include="Core\ACKPack.h" />
+    <ClInclude Include="Core\ActiveDispatcher.h" />
+    <ClInclude Include="Core\ActiveMethod.h" />
+    <ClInclude Include="Core\ActiveResult.h" />
+    <ClInclude Include="Core\ActiveRunnable.h" />
+    <ClInclude Include="Core\ActiveStarter.h" />
+    <ClInclude Include="Core\Alignment.h" />
+    <ClInclude Include="Core\Any.h" />
+    <ClInclude Include="Core\ArchiveStrategy.h" />
+    <ClInclude Include="Core\Array.h" />
+    <ClInclude Include="Core\Ascii.h" />
+    <ClInclude Include="Core\ASCIIEncoding.h" />
+    <ClInclude Include="Core\AsyncChannel.h" />
+    <ClInclude Include="Core\AtomicCounter.h" />
+    <ClInclude Include="Core\AutoPtr.h" />
+    <ClInclude Include="Core\BasicEvent.h" />
+    <ClInclude Include="Core\BinaryReader.h" />
+    <ClInclude Include="Core\BinaryWriter.h" />
+    <ClInclude Include="Core\Buffer.h" />
+    <ClInclude Include="Core\BufferAllocator.h" />
+    <ClInclude Include="Core\BufferedBidirectionalStreamBuf.h" />
+    <ClInclude Include="Core\BufferedStreamBuf.h" />
+    <ClInclude Include="Core\Bugcheck.h" />
+    <ClInclude Include="Core\ByteOrder.h" />
+    <ClInclude Include="Core\CANNode.h" />
+    <ClInclude Include="Core\Channel.h" />
+    <ClInclude Include="Core\Checksum.h" />
+    <ClInclude Include="Core\ClassLibrary.h" />
+    <ClInclude Include="Core\ClassLoader.h" />
+    <ClInclude Include="Core\Clock.h" />
+    <ClInclude Include="Core\CommonTool.h" />
+    <ClInclude Include="Core\Config.h" />
+    <ClInclude Include="Core\Configurable.h" />
+    <ClInclude Include="Core\ConsoleChannel.h" />
+    <ClInclude Include="Core\CoreCommon.h" />
+    <ClInclude Include="Core\CoreComponent.h" />
+    <ClInclude Include="Core\CountingStream.h" />
+    <ClInclude Include="Core\crc32.h" />
+    <ClInclude Include="Core\DataPack.h" />
+    <ClInclude Include="Core\DateTime.h" />
+    <ClInclude Include="Core\DateTimeFormat.h" />
+    <ClInclude Include="Core\DateTimeFormatter.h" />
+    <ClInclude Include="Core\DateTimeParser.h" />
+    <ClInclude Include="Core\Debugger.h" />
+    <ClInclude Include="Core\DefaultStrategy.h" />
+    <ClInclude Include="Core\deflate.h" />
+    <ClInclude Include="Core\DeflatingStream.h" />
+    <ClInclude Include="Core\DictDirectory.h" />
+    <ClInclude Include="Core\DictDirectoryImp.h" />
+    <ClInclude Include="Core\DictFrame.h" />
+    <ClInclude Include="Core\DictFrameImp.h" />
+    <ClInclude Include="Core\DictImp.h" />
+    <ClInclude Include="Core\DictIterator.h" />
+    <ClInclude Include="Core\DigestEngine.h" />
+    <ClInclude Include="Core\DirectoryIterator.h" />
+    <ClInclude Include="Core\DirectoryIteratorStrategy.h" />
+    <ClInclude Include="Core\DiscribeFailPack.h" />
+    <ClInclude Include="Core\DiscribeSuccessPack.h" />
+    <ClInclude Include="Core\Environment.h" />
+    <ClInclude Include="Core\Error.h" />
+    <ClInclude Include="Core\ErrorHandler.h" />
+    <ClInclude Include="Core\ErrorInfo.h" />
+    <ClInclude Include="Core\Event.h" />
+    <ClInclude Include="Core\EventChannel.h" />
+    <ClInclude Include="Core\EventHandle.h" />
+    <ClInclude Include="Core\EventLogChannel.h" />
+    <ClInclude Include="Core\EventManager.h" />
+    <ClInclude Include="Core\Exception.h" />
+    <ClInclude Include="Core\Export.h" />
+    <ClInclude Include="Core\FIFOBuffer.h" />
+    <ClInclude Include="Core\FIFOBufferStream.h" />
+    <ClInclude Include="Core\FIFOEvent.h" />
+    <ClInclude Include="Core\FIFOStrategy.h" />
+    <ClInclude Include="Core\File.h" />
+    <ClInclude Include="Core\FileChannel.h" />
+    <ClInclude Include="Core\FilePack.h" />
+    <ClInclude Include="Core\FileStream.h" />
+    <ClInclude Include="Core\FileStreamFactory.h" />
+    <ClInclude Include="Core\Format.h" />
+    <ClInclude Include="Core\Formatter.h" />
+    <ClInclude Include="Core\FormattingChannel.h" />
+    <ClInclude Include="Core\Foundation.h" />
+    <ClInclude Include="Core\FPEnvironment.h" />
+    <ClInclude Include="Core\Framework.h" />
+    <ClInclude Include="Core\GainDirectoryPack.h" />
+    <ClInclude Include="Core\Hash.h" />
+    <ClInclude Include="Core\HashFunction.h" />
+    <ClInclude Include="Core\HashMap.h" />
+    <ClInclude Include="Core\HashTable.h" />
+    <ClInclude Include="Core\HeartBeatPack.h" />
+    <ClInclude Include="Core\ieee.h" />
+    <ClInclude Include="Core\IniFileConfiguration.h" />
+    <ClInclude Include="Core\IPNode.h" />
+    <ClInclude Include="Core\Latin1Encoding.h" />
+    <ClInclude Include="Core\Latin2Encoding.h" />
+    <ClInclude Include="Core\Latin9Encoding.h" />
+    <ClInclude Include="Core\LinearHashTable.h" />
+    <ClInclude Include="Core\LineEndingConverter.h" />
+    <ClInclude Include="Core\LocalDateTime.h" />
+    <ClInclude Include="Core\LogFile.h" />
+    <ClInclude Include="Core\Logger.h" />
+    <ClInclude Include="Core\LoggingConfigurator.h" />
+    <ClInclude Include="Core\LoggingFactory.h" />
+    <ClInclude Include="Core\LoggingRegistry.h" />
+    <ClInclude Include="Core\LogManager.h" />
+    <ClInclude Include="Core\LogStream.h" />
+    <ClInclude Include="Core\LookupPublisherFailPack.h" />
+    <ClInclude Include="Core\LookupPublisherSuccessPack.h" />
+    <ClInclude Include="Core\ManagePack.h" />
+    <ClInclude Include="Core\Manifest.h" />
+    <ClInclude Include="Core\MapConfiguration.h" />
+    <ClInclude Include="Core\MD5Engine.h" />
+    <ClInclude Include="Core\MemoryStream.h" />
+    <ClInclude Include="Core\Message.h" />
+    <ClInclude Include="Core\MessageRouteProcess.h" />
+    <ClInclude Include="Core\MetaObject.h" />
+    <ClInclude Include="Core\MetaProgramming.h" />
+    <ClInclude Include="Core\Mutex.h" />
+    <ClInclude Include="Core\NamedEvent.h" />
+    <ClInclude Include="Core\NObserver.h" />
+    <ClInclude Include="Core\NodeAddr.h" />
+    <ClInclude Include="Core\NodeBase.h" />
+    <ClInclude Include="Core\NodeDirectoryPack.h" />
+    <ClInclude Include="Core\NodeExitPack.h" />
+    <ClInclude Include="Core\NodeJoinPack.h" />
+    <ClInclude Include="Core\Notification.h" />
+    <ClInclude Include="Core\NotificationCenter.h" />
+    <ClInclude Include="Core\NotificationQueue.h" />
+    <ClInclude Include="Core\NotificationStrategy.h" />
+    <ClInclude Include="Core\NullChannel.h" />
+    <ClInclude Include="Core\NumberFormatter.h" />
+    <ClInclude Include="Core\NumberParser.h" />
+    <ClInclude Include="Core\NumericString.h" />
+    <ClInclude Include="Core\ObjectPool.h" />
+    <ClInclude Include="Core\Observer.h" />
+    <ClInclude Include="Core\Optional.h" />
+    <ClInclude Include="Core\PackageBase.h" />
+    <ClInclude Include="Core\PackFactory.h" />
+    <ClInclude Include="Core\PackHeader.h" />
+    <ClInclude Include="Core\PackRoute.h" />
+    <ClInclude Include="Core\ParseDict.h" />
+    <ClInclude Include="Core\Path.h" />
+    <ClInclude Include="Core\PatternFormatter.h" />
+    <ClInclude Include="Core\pcre.h" />
+    <ClInclude Include="Core\pcre_config.h" />
+    <ClInclude Include="Core\pcre_internal.h" />
+    <ClInclude Include="Core\PingPack.h" />
+    <ClInclude Include="Core\Pipe.h" />
+    <ClInclude Include="Core\PipeImpl.h" />
+    <ClInclude Include="Core\Platform.h" />
+    <ClInclude Include="Core\Platform_POSIX.h" />
+    <ClInclude Include="Core\Platform_VX.h" />
+    <ClInclude Include="Core\Platform_WIN32.h" />
+    <ClInclude Include="Core\PluginManager.h" />
+    <ClInclude Include="Core\Process.h" />
+    <ClInclude Include="Core\PropertyFileConfiguration.h" />
+    <ClInclude Include="Core\Publisher.h" />
+    <ClInclude Include="Core\PurgeStrategy.h" />
+    <ClInclude Include="Core\Random.h" />
+    <ClInclude Include="Core\RandomStream.h" />
+    <ClInclude Include="Core\RefCountedObject.h" />
+    <ClInclude Include="Core\RefreshNodeDirectoryPack.h" />
+    <ClInclude Include="Core\ResourceManager.h" />
+    <ClInclude Include="Core\ReStatePack.h" />
+    <ClInclude Include="Core\RotateStrategy.h" />
+    <ClInclude Include="Core\Runnable.h" />
+    <ClInclude Include="Core\RunnableAdapter.h" />
+    <ClInclude Include="Core\RWLock.h" />
+    <ClInclude Include="Core\ScopedLock.h" />
+    <ClInclude Include="Core\ScopedUnlock.h" />
+    <ClInclude Include="Core\SHA1Engine.h" />
+    <ClInclude Include="Core\SharedLibrary.h" />
+    <ClInclude Include="Core\SharedPtr.h" />
+    <ClInclude Include="Core\SimpleFileChannel.h" />
+    <ClInclude Include="Core\SingleTmp.h" />
+    <ClInclude Include="Core\SingletonHolder.h" />
+    <ClInclude Include="Core\SplitterChannel.h" />
+    <ClInclude Include="Core\StreamCopier.h" />
+    <ClInclude Include="Core\StreamTokenizer.h" />
+    <ClInclude Include="Core\StreamUtil.h" />
+    <ClInclude Include="Core\StringTokenizer.h" />
+    <ClInclude Include="Core\StringUtil.h" />
+    <ClInclude Include="Core\Subscribe.h" />
+    <ClInclude Include="Core\TextConverter.h" />
+    <ClInclude Include="Core\TextEncoding.h" />
+    <ClInclude Include="Core\TextIterator.h" />
+    <ClInclude Include="Core\Thread.h" />
+    <ClInclude Include="Core\ThreadLocal.h" />
+    <ClInclude Include="Core\ThreadPool.h" />
+    <ClInclude Include="Core\ThreadTarget.h" />
+    <ClInclude Include="Core\Timer.h" />
+    <ClInclude Include="Core\TimerHandle.h" />
+    <ClInclude Include="Core\Timespan.h" />
+    <ClInclude Include="Core\Timestamp.h" />
+    <ClInclude Include="Core\Token.h" />
+    <ClInclude Include="Core\TopicPublisherListPack.h" />
+    <ClInclude Include="Core\TopicPublisherPack.h" />
+    <ClInclude Include="Core\TopicRecord.h" />
+    <ClInclude Include="Core\TopicRecordImp.h" />
+    <ClInclude Include="Core\TransportContext.h" />
+    <ClInclude Include="Core\trees.h" />
+    <ClInclude Include="Core\Tuple.h" />
+    <ClInclude Include="Core\TypeList.h" />
+    <ClInclude Include="Core\Types.h" />
+    <ClInclude Include="Core\ucp.h" />
+    <ClInclude Include="Core\Unicode.h" />
+    <ClInclude Include="Core\UnicodeConverter.h" />
+    <ClInclude Include="Core\UnWindows.h" />
+    <ClInclude Include="Core\URIStreamFactory.h" />
+    <ClInclude Include="Core\URIStreamOpener.h" />
+    <ClInclude Include="Core\UserInterface.h" />
+    <ClInclude Include="Core\UTF16Encoding.h" />
+    <ClInclude Include="Core\UTF32Encoding.h" />
+    <ClInclude Include="Core\UTF8Encoding.h" />
+    <ClInclude Include="Core\UTF8String.h" />
+    <ClInclude Include="Core\UTFString.h" />
+    <ClInclude Include="Core\utils.h" />
+    <ClInclude Include="Core\UUID.h" />
+    <ClInclude Include="Core\UUIDGenerator.h" />
+    <ClInclude Include="Core\Version.h" />
+    <ClInclude Include="Core\WaitDicHand.h" />
+    <ClInclude Include="Core\Windows1250Encoding.h" />
+    <ClInclude Include="Core\Windows1251Encoding.h" />
+    <ClInclude Include="Core\Windows1252Encoding.h" />
+    <ClInclude Include="Core\WindowsConsoleChannel.h" />
+    <ClInclude Include="Core\zlib.h" />
+    <ClInclude Include="NodeDiscover\NodeDefinition.h" />
+    <ClInclude Include="NodeDiscover\NodeDiscover.h" />
+    <ClInclude Include="PackageTypeManager\BasePackage.h" />
+    <ClInclude Include="PackageTypeManager\PackageTypeManager.h" />
+    <ClInclude Include="PackageTypeManager\packagetypemanager_global.h" />
+    <ClInclude Include="PackageTypeManager\PackManager.h" />
+    <ClInclude Include="PackageTypeManager\XmlPackage.h" />
+    <ClInclude Include="Public\IAbstractObserver.h" />
+    <ClInclude Include="Public\IComManagerFace.h" />
+    <ClInclude Include="Public\ICoreComponent.h" />
+    <ClInclude Include="Public\ILog.h" />
+    <ClInclude Include="Public\ILogManager.h" />
+    <ClInclude Include="Public\IMessage.h" />
+    <ClInclude Include="Public\INetCommunication.h" />
+    <ClInclude Include="Public\INotification.h" />
+    <ClInclude Include="Public\IPlugin.h" />
+    <ClInclude Include="Public\IPluginFactory.h" />
+    <ClInclude Include="Public\ITransportSendStrategy.h" />
+    <ClInclude Include="Public\ITransportStrategy.h" />
+    <ClInclude Include="Reactor.h" />
+    <ClInclude Include="Reactor\ParallelSocketAcceptor.h" />
+    <ClInclude Include="Reactor\ParallelSocketReactor.h" />
+    <ClInclude Include="Reactor\SocketAcceptor.h" />
+    <ClInclude Include="Reactor\SocketConnector.h" />
+    <ClInclude Include="Reactor\SocketNotification.h" />
+    <ClInclude Include="Reactor\SocketNotifier.h" />
+    <ClInclude Include="Reactor\SocketReactor.h" />
+    <ClInclude Include="Sockets\DatagramSocket.h" />
+    <ClInclude Include="Sockets\DatagramSocketImpl.h" />
+    <ClInclude Include="Sockets\DialogSocket.h" />
+    <ClInclude Include="Sockets\RawSocket.h" />
+    <ClInclude Include="Sockets\RawSocketImpl.h" />
+    <ClInclude Include="Sockets\ServerSocket.h" />
+    <ClInclude Include="Sockets\ServerSocketImpl.h" />
+    <ClInclude Include="Sockets\Socket.h" />
+    <ClInclude Include="Sockets\SocketDefs.h" />
+    <ClInclude Include="Sockets\SocketImpl.h" />
+    <ClInclude Include="Sockets\SocketStream.h" />
+    <ClInclude Include="Sockets\StreamSocket.h" />
+    <ClInclude Include="Sockets\StreamSocketImpl.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B4082265-BC52-4BDE-B365-DE32A6AE7C4F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NetCommunication</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>./Core;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>./Core;./XML;./;$(QTDIR)/include;$(QTDIR)/include/QtCore;$(QTDIR)/include/QtXml;$(IncludePath)</IncludePath>
+    <LibraryPath>$(QTDIR)/lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>./Core;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;POCO_STATIC;NETCOMMUNICATION_DLL;Net_EXPORTS;Foundation_EXPORTS;POCO_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Iphlpapi.lib;Ws2_32.lib;Qt5Core.lib;Qt5Xml.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>PGInstrument</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;NETCOMMUNICATION_DLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
